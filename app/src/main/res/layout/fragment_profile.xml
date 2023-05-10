@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/my_self">
+
+    <LinearLayout
+        android:id="@+id/profil_lin_la"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/helpCenter"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/profile"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="الملف الشخصي"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+
+        <TextView
+            android:id="@+id/rateUs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/password"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="ترقية الحساب"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/bell"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="الاشعارات"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/settings"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="الاعدادات العامة"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="المساعدة والدعم"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/privecy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangle_232"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="حول التطبيق"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/privecy1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/send"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="مشاركة"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rectangle_197"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil_lin_la"
+        app:layout_constraintVertical_bias="0.5">
+
+        <TextView
+            android:id="@+id/res_sec_tex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="center"
+            android:text="تابعنا على مواقع التواصل الاجتماعي"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/res_sec_tex">
+
+            <ImageButton
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen24dp"
+                android:background="@drawable/facebook_1" />
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen24dp"
+                android:background="@drawable/logo_instagram_1" />
+
+            <ImageButton
+                android:id="@+id/twitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen24dp"
+                android:background="@drawable/logo_twitter_1" />
+
+            <ImageButton
+                android:id="@+id/youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo_youtube_1" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
