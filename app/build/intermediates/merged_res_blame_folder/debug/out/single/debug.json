@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_shopping_cart_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/shopping_cart_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_arow.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/arow.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_214_2.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_214_2.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_cart.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_mobile_notch.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/mobile_notch.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_user.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/user.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset1.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset1.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_schedule.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_schedule.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_arow2.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/arow2.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_searchbar.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/searchbar.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_pin_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/pin_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_dialoge_bk2.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/dialoge_bk2.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_home_selected.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/home_selected.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_arow2_red.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/arow2_red.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset2.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset2.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_category_selected.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/category_selected.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/anim_slide_in_bottom.xml.flat",
+        "source": "com.myself.demo.app-main-72:/anim/slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_fragment_profile.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_group_1628.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/group_1628.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_fragment_home.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/xml_data_extraction_rules.xml.flat",
+        "source": "com.myself.demo.app-main-72:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_218.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_218.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_vector.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/vector.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_document__1_.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/document__1_.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_232.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_232.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_197_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_197_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_search.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_logo_twitter_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/logo_twitter_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_custom_edittext.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/custom_edittext.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_fragment_forum.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/fragment_forum.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_217.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_217.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/xml_backup_rules.xml.flat",
+        "source": "com.myself.demo.app-main-72:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_facebook_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/facebook_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_track.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/track.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_group_1636.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/group_1636.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_fil_filed.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/fil_filed.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_238.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_238.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_category.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/category.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_logo_youtube_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/logo_youtube_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_214_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_214_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_fragment_hello.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/fragment_hello.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_phone_call.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/phone_call.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/anim_slide_out_bottom.xml.flat",
+        "source": "com.myself.demo.app-main-72:/anim/slide_out_bottom.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_1__4_.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_1__4_.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_comment_info.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/comment_info.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_calendar_lines__1_.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/calendar_lines__1_.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_user__1_.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/user__1_.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_balance_image.jpg.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/balance_image.jpg"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_no_internet.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/no_internet.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_283.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_283.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_215.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_215.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_round.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/round.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_home.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/home.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_arrow_2.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/arrow_2.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle190.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle190.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_thumb.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/thumb.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset_4.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset_4.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_profile_imag.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/profile_imag.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_239_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_239_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_home.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_282.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_282.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/color_color_nav.xml.flat",
+        "source": "com.myself.demo.app-main-72:/color/color_nav.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_197.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_197.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_profile.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_laoding_gif.gif.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/laoding_gif.gif"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_logo.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/logo.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/font_noorbold.ttf.flat",
+        "source": "com.myself.demo.app-main-72:/font/noorbold.ttf"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_file.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/file.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_214.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_214.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/font_noorregular.ttf.flat",
+        "source": "com.myself.demo.app-main-72:/font/noorregular.ttf"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_vector1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/vector1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_dialoge_bk.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/dialoge_bk.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_power.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/power.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_hdymadis.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/hdymadis.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_224.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_224.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_shopping_cart.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/shopping_cart.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset_5.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset_5.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_logo_instagram_1.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/logo_instagram_1.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_33.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_33.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_category.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_category.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.myself.demo.app-main-72:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_285.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_285.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_icondymadis1.bmp.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/icondymadis1.bmp"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_239.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_239.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset_6.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset_6.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_activity_main.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_envelope__1_.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/envelope__1_.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_user_add.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/user_add.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_star.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/star.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_map_marker.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/map_marker.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_hello_image.jpg.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/hello_image.jpg"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_icondymadis.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/icondymadis.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_fragment_categourie.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/fragment_categourie.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_shopping_cart_selected.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/shopping_cart_selected.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/navigation_mobile_navigation.xml.flat",
+        "source": "com.myself.demo.app-main-72:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_198_2.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_198_2.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_rectangle_241.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/rectangle_241.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_text_cursor.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/text_cursor.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_user_selected.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/user_selected.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_baseline_lock_open_24.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/baseline_lock_open_24.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/font_noorlight.ttf.flat",
+        "source": "com.myself.demo.app-main-72:/font/noorlight.ttf"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.myself.demo.app-main-72:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_asset3.png.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/asset3.png"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_truck_side.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/truck_side.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/layout_activity_splach.xml.flat",
+        "source": "com.myself.demo.app-main-72:/layout/activity_splach.xml"
+    },
+    {
+        "merged": "com.myself.demo.app-merged_res-70:/drawable_ic_close.xml.flat",
+        "source": "com.myself.demo.app-main-72:/drawable/ic_close.xml"
+    }
+]

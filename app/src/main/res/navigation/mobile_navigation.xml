@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/helloFragment">
+
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.myself.demo.ui.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categourieFragment"
+        android:name="com.myself.demo.ui.CategourieFragment"
+        android:label="categourie"
+        tools:layout="@layout/fragment_categourie" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.myself.demo.ui.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.myself.demo.ui.ForumFragment"
+        android:label="forum"
+        tools:layout="@layout/fragment_forum" >
+        <action
+            android:id="@+id/action_forumFragment_to_helloFragment"
+            app:destination="@id/helloFragment" />
+        <action
+            android:id="@+id/action_forumFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helloFragment"
+        android:name="com.myself.demo.ui.HelloFragment"
+        android:label="hello"
+        tools:layout="@layout/fragment_hello" >
+        <action
+            android:id="@+id/action_helloFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+    </fragment>
+
+
+</navigation>

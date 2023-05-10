@@ -1,3 +1,151 @@
 <resources>
     <string name="app_name">myself</string>
+    <string name="local_lang">العربية</string>
+    <string name="title_home">Home</string>
+    <string name="title_category">Category</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_cart">Cart</string>
+
+    <!-- home -->
+    <string name="search">Rechercher Dymadis</string>
+    <string name="dymapromo">Meilleures Offres Aujourdhui</string>
+    <string name="affichertout">Afficher tout ></string>
+    <string name="recent_searches">Recherches récentes</string>
+    <string name="clear_all">Tout effacer</string>
+    <string name="lodingdata">Chargement de données</string>
+
+    <!--    nav-button   -->
+    <string name="profile">Compte</string>
+    <string name="Cart">Panier</string>
+    <string name="Invoice">Catégorie</string>
+    <string name="home">Accueil</string>
+
+    <!--    cart   -->
+    <string name="adresse">L\'adresse de livraison</string>
+    <string name="sommaire">Sommaire</string>
+    <string name="soustotal">Sous-total</string>
+    <string name="fraislivraison">Frais de livraison à </string>
+    <string name="total">Total</string>
+    <string name="passerlacommand">Passer la commande</string>
+    <string name="Domicile">Domicile</string>
+    <string name="commande_minimum">Le Sous-total minimum est de 1500 DZD Veuillez ajouter d\'autres produits au panier avant d\'envoyer la commande!</string>
+    <string name="npshippin">Nb : Les frais de livraison sont forfaitaires pour une seule commande, quels que soient le nombre et le poids des produits., vous pouvez ajouter de autres produits à votre commande</string>
+
+    <!--    cart empty  -->
+    <string name="panierVide">Votre panier est vide</string>
+    <string name="remplirPanier">Assurez-vous de remplir le panier avec quelque chose que vous aimez</string>
+
+    <!--    Profile    -->
+    <string name="bonjour">Bonjour</string>
+    <string name="compte">Mon compte</string>
+    <string name="address1">Mes adresses</string>
+    <string name="commandes">Mes commandes</string>
+    <string name="notification">Notifications</string>
+    <string name="contactviber">Contacter nous</string>
+    <string name="condition">Conditions d\'utilisation</string>
+    <string name="about">Politique de confidentialité</string>
+    <string name="rating">Évaluer l\'application</string>
+    <string name="invite">Inviter des amis</string>
+    <string name="logout">Déconnexion</string>
+    <string name="social">Suivez-nous sur les réseaux sociaux</string>
+    <string name="doneSave">Enregistré</string>
+
+    <!--    detail product-->
+    <string name="addtocart">Ajouter au panier</string>
+    <string name="stockstaton">En Stock</string>
+    <string name="stockstatoff">Rupture de stock</string>
+    <string name="livraison">Livraison à </string>
+    <string name="Ajouté">Ajouté</string>
+
+
+    <!--    checkout-->
+    <string name="formulaire">Formulaire de demande</string>
+    <string name="nomcomplet">Nom complet</string>
+    <string name="telephone">Numéro de téléphone 1</string>
+    <string name="telephone2">Numéro de téléphone 2</string>
+    <string name="telephone3">Numéro de téléphone 3</string>
+    <string name="addphone">Ajouter numéro de téléphone</string>
+    <string name="addemail">Adresse e-mail</string>
+    <string name="AjouterDétails">Ajouter plus de détails</string>
+    <string name="Obligatoire">Obligatoire *</string>
+    <string name="Optionnel">Optionnel</string>
+
+    <!--    reclamation-->
+    <string name="reclamationtype">Type de réclamation</string>
+    <string name="reclamationdes">Description sur le probléme</string>
+    <string name="imageupload">Insérer des images</string>
+    <string name="envoyer">Envoyer</string>
+
+
+    <!--    edit profile-->
+    <string name="information_sur_compte">Informations sur le compte</string>
+    <string name="Informationsurcompte">Information sur compte</string>
+    <string name="Adressedelivraisonprincipal">Adresse de livraison principal</string>
+    <string name="utilisateur">Nom d’utilisateur</string>
+    <string name="gender">Genre</string>
+    <string name="birthday">Date de naissance</string>
+    <string name="Sauvegarder">Sauvegarder</string>
+
+    <!--    dialog   -->
+    <string name="sélectionnezaddress">Veuillez sélectionner votre adresse de livraison</string>
+    <string name="ChoisissezWilaya">Choisissez la Wilaya</string>
+    <string name="ChoisissezCommune">Choisissez la Commune</string>
+    <string name="GérezAdresses">Gérez vos adresses  de livraison</string>
+    <string name="Enregistrer">Enregistrer</string>
+    <string name="Adresse1">Adresse 1</string>
+    <string name="Adresse2">Adresse 2</string>
+    <string name="GérezAdresses1">Gérez vos adresses</string>
+    <string name="Veuillezdabordwilaya">Veuillez sélectionner la wilaya</string>
+
+    <!--    commande Details   -->
+    <string name="ListeDarticles">Liste d’articles dans votre commande</string>
+    <string name="PasserRéclamation">Passer une réclamation !</string>
+    <string name="created">Crée</string>
+
+
+    <!--    commande   -->
+    <string name="CommandesEnCours">Commandes en cours</string>
+    <string name="CommandesArchivé">Commandes Archivé</string>
+
+    <!--    commande item   -->
+    <string name="Commande">Commande</string>
+    <string name="Qte">Qte</string>
+    <string name="CréeLe">Crée le</string>
+    <string name="produits">produits</string>
+
+
+    <!--  reclamation  -->
+    <string name="NCommande">N° de commande *</string>
+    <string name="type_de_reclamation">Type de réclamation *</string>
+    <string name="type_de_reclamation1">Produit erronée</string>
+    <string name="type_de_reclamation2">Produit cassé</string>
+    <string name="type_de_reclamation3">Produit manquant</string>
+    <string name="type_de_reclamation4">Défaut du produit</string>
+    <string name="description_sur_le_probleme">Description sur le probléme</string>
+    <string name="inserer_des_images">Insérer des images</string>
+    <string name="Bienvenue_chez_Dymadis">Bienvenue chez Dymadis Achetez en toute confiance et découvrez les meilleurs services adaptés à vous</string>
+    <string name="supprimer">Supprimer</string>
+
+    <!--      no connection   -->
+    <string name="réessayer">Réessayer</string>
+    <string name="VeuillezVérifierVotreConnexion">Veuillez vérifier votre connexion</string>
+    <string name="AucuneConnexionInternet">Aucune connexion internet</string>
+    <string name="sp_cifications">Spécifications</string>
+    <string name="description_du_produit">Description du produit</string>
+    <string name="t_ajout_au_panier">À été ajouté au panier</string>
+    <string name="continuer_vos_achats">Continuer vos achats</string>
+    <string name="voir_le_panier">Voir le panier</string>
+    <string name="afficher_tout">Afficher Tout</string>
+    <string name="recommand_pour_vous">Recommandé pour vous</string>
+    <string name="vous_d_connecter_de_votre_compte">Vous déconnecter de votre compte ?</string>
+    <string name="se_d_connecter">SE DÉCONNECTER</string>
+    <string name="annuler">ANNULER</string>
+    <string name="da">DA</string>
+    <string name="modifier">Modifier</string>
+    <string name="ajouter_une_nouvelle_adreese">Ajouter une nouvelle adreese</string>
+    <string name="suivre_votre_commande">Suivre votre commande</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
