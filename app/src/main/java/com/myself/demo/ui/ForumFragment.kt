@@ -1,10 +1,13 @@
 package com.myself.demo.ui
 
+import android.opengl.Visibility
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
+import android.widget.AutoCompleteTextView
 import androidx.activity.OnBackPressedCallback
 import androidx.cardview.widget.CardView
 import androidx.navigation.Navigation
@@ -17,10 +20,15 @@ import com.myself.demo.databinding.FragmentHelloBinding
 class ForumFragment : Fragment() {
     private var _binding: FragmentForumBinding? = null
     private val binding get() = _binding!!
+    val items1 = listOf("الوالدين", "أحد الوالدين", "آخر")
+    val items2 = listOf("أعزب / عزباء", "متزوج(ة)", "مطلق(ة)")
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val navBar = activity?.findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         navBar?.setVisibility(View.GONE)
+
     }
 
     override fun onCreateView(
@@ -29,8 +37,11 @@ class ForumFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentForumBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+
+       val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_dropdown_item_1line, items1)
+        binding.autoCompleteTxt.setAdapter(adapter)
+
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -43,6 +54,11 @@ class ForumFragment : Fragment() {
             binding.card5.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
             binding.card8.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
             binding.text12.setTextColor(resources.getColor(R.color.black))
+            binding.textInput.visibility = View.VISIBLE
+            binding.autoCompleteTxt.text = null
+            binding.textInput.hint = "تعيش مع"
+            val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_dropdown_item_1line, items1)
+            binding.autoCompleteTxt.setAdapter(adapter)
             next = true
         }
         binding.card5.setOnClickListener {
@@ -50,6 +66,11 @@ class ForumFragment : Fragment() {
             binding.card4.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
             binding.card8.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
             binding.text12.setTextColor(resources.getColor(R.color.black))
+            binding.textInput.visibility = View.VISIBLE
+            binding.autoCompleteTxt.text = null
+            binding.textInput.hint = "الحالة الإجتماعية"
+            val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_dropdown_item_1line, items2)
+            binding.autoCompleteTxt.setAdapter(adapter)
             next = true
         }
 
@@ -68,6 +89,9 @@ class ForumFragment : Fragment() {
         binding.image1.setOnClickListener {
             val navController = Navigation.findNavController(requireActivity(), R.id.fragment)
             navController.navigate(R.id.action_forumFragment_to_helloFragment)
+
+
+
         }
     }
 }

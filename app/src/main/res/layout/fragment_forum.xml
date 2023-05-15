@@ -274,60 +274,38 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card6"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:visibility="gone"
             android:layout_marginEnd="32dp"
-            android:outlineSpotShadowColor="@color/my_self"
-            app:cardBackgroundColor="@color/ms_grey"
-            app:cardCornerRadius="10dp"
+            android:background="@color/ms_grey"
+            android:hint="تعيش مع"
+            app:boxCornerRadiusBottomEnd="@dimen/dimen10dp"
+            app:boxCornerRadiusBottomStart="@dimen/dimen10dp"
+            app:boxCornerRadiusTopEnd="@dimen/dimen10dp"
+            app:boxCornerRadiusTopStart="@dimen/dimen10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card4">
+            app:layout_constraintTop_toBottomOf="@+id/card5">
 
-            <EditText
-                android:id="@+id/live_with_box"
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="16dp"
-            android:outlineSpotShadowColor="@color/my_self"
-            app:cardBackgroundColor="@color/ms_grey"
-            app:cardCornerRadius="10dp"
-            android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card6">
-
-            <EditText
-                android:id="@+id/situation_family_box"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
-
-        </androidx.cardview.widget.CardView>
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card8"
             android:layout_width="@dimen/dimen200dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="16dp"
             android:outlineSpotShadowColor="@color/my_self"
@@ -336,7 +314,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card7">
+            app:layout_constraintTop_toBottomOf="@+id/text_input">
 
             <TextView
                 android:id="@+id/text12"

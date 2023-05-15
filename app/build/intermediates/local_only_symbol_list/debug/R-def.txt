@@ -169,6 +169,7 @@ id action_quizFragment_self
 id action_quizFragment_to_categoryNextFragment
 id action_quizFragment_to_resultFragment
 id age_box
+id auto_complete_txt
 id bottomNavigationView
 id card0
 id card1
@@ -203,7 +204,6 @@ id image6
 id image7
 id imageView
 id instagram
-id live_with_box
 id loading
 id loading1
 id loading2
@@ -225,7 +225,6 @@ id res_sec_tex
 id resultFragment
 id scale1
 id settings
-id situation_family_box
 id text0
 id text1
 id text10
@@ -239,6 +238,7 @@ id text6
 id text7
 id text8
 id text9
+id text_input
 id twitre
 id username_box
 id youtube

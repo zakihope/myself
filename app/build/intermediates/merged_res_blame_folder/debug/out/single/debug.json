@@ -204,6 +204,10 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\rectangle_215.xml"
     },
     {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\layout_list_wilaya_select.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\layout\\list_wilaya_select.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_rectangle_241.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\rectangle_241.xml"
     },
@@ -226,10 +230,6 @@
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_arrow_2.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\arrow_2.xml"
-    },
-    {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_arow2.xml.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\arow2.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_thumb.xml.flat",
@@ -478,10 +478,6 @@
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_user.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\user.xml"
-    },
-    {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_arow2_red.xml.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-72:\\drawable\\arow2_red.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-70:\\drawable_track.xml.flat",
