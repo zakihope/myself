@@ -48,9 +48,9 @@ dimen dimen30dp
 dimen dimen5dp
 dimen dimen70dp
 dimen dimen8dp
+drawable about
 drawable arow
-drawable arow2
-drawable arow2_red
+drawable arrow_1
 drawable arrow_2
 drawable asset
 drawable asset0
@@ -68,6 +68,7 @@ drawable calendar_lines__1_
 drawable category
 drawable category_selected
 drawable chat
+drawable circle
 drawable comment_info
 drawable custom_edittext
 drawable dialoge_bk
@@ -141,6 +142,7 @@ drawable shopping_cart
 drawable shopping_cart_1
 drawable shopping_cart_selected
 drawable star
+drawable support
 drawable text_cursor
 drawable thumb
 drawable track
@@ -154,7 +156,6 @@ drawable vector1
 font noorbold
 font noorlight
 font noorregular
-id action_categoryNextFragment_self
 id action_categoryNextFragment_to_categourieFragment
 id action_categoryNextFragment_to_quizFragment
 id action_categourieFragment_to_categoryNextFragment
@@ -164,7 +165,9 @@ id action_forumFragment_to_homeFragment
 id action_helloFragment_to_forumFragment
 id action_homeFragment_to_forumFragment
 id action_profileFragment_to_homeFragment
+id action_quizFragment_self
 id action_quizFragment_to_categoryNextFragment
+id action_quizFragment_to_resultFragment
 id age_box
 id bottomNavigationView
 id card0
@@ -175,6 +178,7 @@ id card4
 id card5
 id card6
 id card7
+id card8
 id categoryNextFragment
 id categourieFragment
 id condition
@@ -206,6 +210,7 @@ id loading2
 id loading3
 id mobile_navigation
 id notification
+id percentag
 id percentag1
 id percentag2
 id percentag3
@@ -217,6 +222,7 @@ id profileFragment
 id quizFragment
 id rateUs
 id res_sec_tex
+id resultFragment
 id scale1
 id settings
 id situation_family_box
@@ -224,6 +230,7 @@ id text0
 id text1
 id text10
 id text11
+id text12
 id text2
 id text3
 id text4
@@ -239,11 +246,13 @@ layout activity_main
 layout activity_splach
 layout fragment_category
 layout fragment_category_next
+layout fragment_categourie
 layout fragment_forum
 layout fragment_hello
 layout fragment_home
 layout fragment_profile
 layout fragment_quiz
+layout fragment_result
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -362,6 +371,7 @@ string type_de_reclamation4
 string utilisateur
 string voir_le_panier
 string vous_d_connecter_de_votre_compte
+style CircularDeterminateProgressBar
 style DialogAnimation
 style Theme.Myself
 style Widget.BottomNavigationView

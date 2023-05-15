@@ -15,9 +15,9 @@
             android:id="@+id/image7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
-            android:src="@drawable/arrow_2"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="24dp"
+            android:src="@drawable/arrow_1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,14 +26,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="100dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="32dp"
             android:layout_marginEnd="100dp"
-            android:outlineAmbientShadowColor="@color/ms_grey"
+            android:outlineSpotShadowColor="@color/my_self"
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toBottomOf="@+id/image7">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -78,6 +78,7 @@
                     android:layout_marginBottom="8dp"
                     android:fontFamily="@font/noorregular"
                     android:gravity="center"
+                    android:lineHeight="21sp"
                     android:text="يساعدك هذا المقياس على التعرف على مدى قدرتك في إصدار أحكام أكثر ايجابية عن نفسك "
                     android:textColor="@color/black"
                     android:textSize="12sp"
@@ -98,6 +99,7 @@
             android:layout_marginEnd="36dp"
             android:fontFamily="@font/noorbold"
             android:gravity="center"
+            android:lineHeight="30sp"
             android:text="تظهر أهمية تقدير الذات في تأثيره على جميع جوانب الحياة:"
             android:textColor="@color/black"
             android:textSize="16sp"
@@ -107,8 +109,8 @@
 
         <ImageView
             android:id="@id/image2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="48dp"
             android:src="@drawable/megaphone"
             app:layout_constraintEnd_toStartOf="@+id/image3"
@@ -131,8 +133,8 @@
 
         <ImageView
             android:id="@id/image3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="24dp"
             android:src="@drawable/chat"
             app:layout_constraintEnd_toStartOf="@+id/image4"
@@ -156,8 +158,8 @@
 
         <ImageView
             android:id="@id/image4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="48dp"
             android:src="@drawable/goodfb"
             app:layout_constraintEnd_toEndOf="parent"
@@ -181,8 +183,8 @@
 
         <ImageView
             android:id="@+id/image5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="24dp"
             android:src="@drawable/brain"
             app:layout_constraintEnd_toStartOf="@+id/image6"
@@ -205,8 +207,8 @@
 
         <ImageView
             android:id="@+id/image6"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginTop="24dp"
             android:src="@drawable/leadership"
             app:layout_constraintEnd_toEndOf="parent"
@@ -233,7 +235,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="16dp"
-            android:outlineAmbientShadowColor="@color/ms_grey"
+            android:outlineSpotShadowColor="@color/my_self"
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
