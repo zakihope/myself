@@ -126,51 +126,31 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraint2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="32dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card2">
 
-            <TextView
-                android:id="@+id/anser2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/noorregular"
-                android:text="الجنس"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card3"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_input1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
-            android:outlineSpotShadowColor="@color/my_self"
-            app:cardBackgroundColor="@color/ms_grey"
-            app:cardCornerRadius="10dp"
+            android:background="@color/ms_grey"
+            android:hint="الجنس"
+            app:boxCornerRadiusBottomEnd="@dimen/dimen10dp"
+            app:boxCornerRadiusBottomStart="@dimen/dimen10dp"
+            app:boxCornerRadiusTopEnd="@dimen/dimen10dp"
+            app:boxCornerRadiusTopStart="@dimen/dimen10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraint2">
+            app:layout_constraintTop_toBottomOf="@+id/card2">
 
-            <EditText
-                android:id="@+id/age_box"
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_txt1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName" />
-
-        </androidx.cardview.widget.CardView>
+                android:layout_height="50dp"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/anser4"
@@ -184,7 +164,7 @@
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card3" />
+            app:layout_constraintTop_toBottomOf="@+id/text_input1" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card4"
@@ -275,7 +255,7 @@
         </androidx.cardview.widget.CardView>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/text_input"
+            android:id="@+id/text_input2"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -294,9 +274,9 @@
             app:layout_constraintTop_toBottomOf="@+id/card5">
 
             <AutoCompleteTextView
-                android:id="@+id/auto_complete_txt"
+                android:id="@+id/auto_complete_txt2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:inputType="none" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -314,7 +294,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_input">
+            app:layout_constraintTop_toBottomOf="@+id/text_input2">
 
             <TextView
                 android:id="@+id/text12"

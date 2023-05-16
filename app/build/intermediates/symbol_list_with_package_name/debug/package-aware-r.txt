@@ -3207,6 +3207,7 @@ drawable category
 drawable category_selected
 drawable chat
 drawable circle
+drawable circle1
 drawable comment_info
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -3489,6 +3490,7 @@ id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
 id action_categoryNextFragment_to_categourieFragment
+id action_categoryNextFragment_to_homeFragment
 id action_categoryNextFragment_to_quizFragment
 id action_categourieFragment_to_categoryNextFragment
 id action_categourieFragment_to_homeFragment
@@ -3511,13 +3513,13 @@ id action_quizFragment_self
 id action_quizFragment_to_categoryNextFragment
 id action_quizFragment_to_resultFragment
 id action_resultFragment_to_homeFragment
+id action_resultFragment_to_quizFragment
 id action_text
 id actions
 id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
-id age_box
 id alertTitle
 id aligned
 id all
@@ -3541,7 +3543,8 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
-id auto_complete_txt
+id auto_complete_txt1
+id auto_complete_txt2
 id back
 id backQuiz
 id barrier
@@ -3604,7 +3607,6 @@ id condition
 id confirm_button
 id constraint
 id constraint1
-id constraint2
 id constraintLayout
 id container
 id content
@@ -3850,6 +3852,7 @@ id notification
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number_quiz
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -4018,7 +4021,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id text_input
+id text_input1
+id text_input2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

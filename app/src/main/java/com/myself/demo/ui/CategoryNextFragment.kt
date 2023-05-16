@@ -3,6 +3,7 @@ package com.myself.demo.ui
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
@@ -18,7 +19,11 @@ class CategoryNextFragment : Fragment() {
         super.onCreate(savedInstanceState)
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         _binding = FragmentCategoryNextBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
@@ -26,6 +31,25 @@ class CategoryNextFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.card2.setOnClickListener{ findNavController().navigate(R.id.action_categoryNextFragment_to_quizFragment) }
+        binding.card2.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey1))
+                    true
+                }
+
+                MotionEvent.ACTION_UP -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
+                    findNavController().navigate(R.id.action_categoryNextFragment_to_quizFragment)
+                    true
+                }
+
+                else -> false
+            }
+        }
+
+        binding.back.setOnClickListener {
+            findNavController().popBackStack()
+        }
     }
 }

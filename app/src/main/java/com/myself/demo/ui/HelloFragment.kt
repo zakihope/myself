@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
@@ -65,9 +66,22 @@ class HelloFragment : Fragment() {
             binding.text9.setTextColor(resources.getColor(R.color.black))
             next = true
         }
-        binding.card4.setOnClickListener {
-            if (next)
-                findNavController().navigate(R.id.action_helloFragment_to_forumFragment)
+        binding.card4.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    binding.card4.setCardBackgroundColor(resources.getColor(R.color.ms_grey1))
+                    true
+                }
+
+                MotionEvent.ACTION_UP -> {
+                    binding.card4.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
+                    if (next)
+                        findNavController().navigate(R.id.action_helloFragment_to_forumFragment)
+                    true
+                }
+
+                else -> false
+            }
         }
     }
 }

@@ -72,6 +72,7 @@ drawable category
 drawable category_selected
 drawable chat
 drawable circle
+drawable circle1
 drawable comment_info
 drawable custom_edittext
 drawable d
@@ -170,6 +171,7 @@ font noorbold
 font noorlight
 font noorregular
 id action_categoryNextFragment_to_categourieFragment
+id action_categoryNextFragment_to_homeFragment
 id action_categoryNextFragment_to_quizFragment
 id action_categourieFragment_to_categoryNextFragment
 id action_categourieFragment_to_homeFragment
@@ -183,13 +185,14 @@ id action_quizFragment_self
 id action_quizFragment_to_categoryNextFragment
 id action_quizFragment_to_resultFragment
 id action_resultFragment_to_homeFragment
-id age_box
+id action_resultFragment_to_quizFragment
 id anser1
 id anser2
 id anser3
 id anser4
 id anser5
-id auto_complete_txt
+id auto_complete_txt1
+id auto_complete_txt2
 id back
 id backQuiz
 id bottomNavigationView
@@ -206,7 +209,6 @@ id categoryNextFragment
 id categourieFragment
 id condition
 id constraint1
-id constraint2
 id constraintLayout
 id container
 id facebook
@@ -232,6 +234,7 @@ id loading2
 id loading3
 id mobile_navigation
 id notification
+id number_quiz
 id percentag
 id percentag1
 id percentag2
@@ -257,7 +260,8 @@ id text2
 id text3
 id text9
 id textView
-id text_input
+id text_input1
+id text_input2
 id titelquiz
 id twitre
 id username_box

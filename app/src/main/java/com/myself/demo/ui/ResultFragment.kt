@@ -1,9 +1,12 @@
 package com.myself.demo.ui
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
@@ -21,6 +24,7 @@ import com.myself.demo.databinding.FragmentResultBinding
 import java.lang.Math.abs
 
 class ResultFragment : Fragment() {
+    val bundle = Bundle()
     private var _binding: FragmentResultBinding? = null
     private val binding get() = _binding!!
     private lateinit var viewPager2: ViewPager2
@@ -49,7 +53,7 @@ class ResultFragment : Fragment() {
         if (result != null) {
             if (result < 115) {
                 binding.text2.text = "منخفض"
-                binding.text3.text = "لابد من برنامج تدريبي في أقرب"
+                binding.text3.text = "لابد من برنامج تدريبي في أقرب وقت"
             } else if (result < 153) {
                 binding.text2.text = "متوسط"
                 binding.text3.text = "تحتاج إلى برنامج تدريبي"
@@ -76,6 +80,30 @@ class ResultFragment : Fragment() {
             }
         }
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)
+        binding.card2.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey1))
+                    true
+                }
+
+                MotionEvent.ACTION_UP -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
+                    val dialIntent = Intent(Intent.ACTION_DIAL)
+                    dialIntent.data = Uri.parse("tel:0674839640")
+                    startActivity(dialIntent)
+                    if (result != null)
+                        bundle.putInt("numberQuiz", 38)
+                    findNavController().navigate(R.id.action_resultFragment_to_homeFragment, bundle)
+                    true
+                }
+
+                else -> false
+            }
+        }
+      /*  binding.back.setOnClickListener {
+            findNavController().navigate(R.id.action_resultFragment_to_quizFragment)
+        }*/
     }
 
     override fun onPause() {

@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
@@ -38,6 +39,24 @@ class CategoryFragment : Fragment() {
                 }
             }
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)
-        binding.card2.setOnClickListener{findNavController().navigate(R.id.action_categourieFragment_to_categoryNextFragment) }
+
+        val bundle = Bundle()
+        bundle.putString("previus","category")
+        binding.card2.setOnTouchListener { _, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey1))
+                    true
+                }
+
+                MotionEvent.ACTION_UP -> {
+                    binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
+                    findNavController().navigate(R.id.action_categourieFragment_to_categoryNextFragment,bundle)
+                    true
+                }
+
+                else -> false
+            }
+        }
     }
 }

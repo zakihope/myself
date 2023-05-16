@@ -12,16 +12,16 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_m.jpg.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\m.jpg"
+    },
+    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_vector1.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\vector1.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_ic_delete_white_24dp.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\ic_delete_white_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_m.jpg.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\m.jpg"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\anim_slide_out_bottom.xml.flat",
@@ -132,12 +132,12 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\password.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_rectangle_224.xml.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\rectangle_224.xml"
-    },
-    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_g.jpg.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\g.jpg"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_rectangle_224.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\rectangle_224.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_arrow_1.xml.flat",
@@ -212,8 +212,8 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\layout\\fragment_quiz.xml"
     },
     {
-        "merged": "com.myself.demo.app-merged_res-71:/navigation_mobile_navigation.xml.flat",
-        "source": "com.myself.demo.app-main-73:/navigation/mobile_navigation.xml"
+        "merged": "com.myself.demo.app-merged_res-71:/layout_fragment_result.xml.flat",
+        "source": "com.myself.demo.app-main-73:/layout/fragment_result.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_ic_home.xml.flat",
@@ -264,6 +264,10 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_circle1.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\circle1.xml"
+    },
+    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_home.xml.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\home.xml"
     },
@@ -284,6 +288,10 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\a.jpg"
     },
     {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_l.jpg.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\l.jpg"
+    },
+    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\mipmap-hdpi\\ic_launcher.png"
     },
@@ -292,8 +300,8 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_l.jpg.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\l.jpg"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_bar.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\bar.xml"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_thumb.xml.flat",
@@ -460,12 +468,12 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\shopping_cart.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_j.jpg.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\j.jpg"
-    },
-    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_j.jpg.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\j.jpg"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_rectangle_218.xml.flat",
@@ -592,12 +600,12 @@
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable\\rectangle_239.xml"
     },
     {
-        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_e.jpg.flat",
-        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\e.jpg"
-    },
-    {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable-v24_e.jpg.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-main-73:\\drawable-v24\\e.jpg"
     },
     {
         "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.1.1\\com.myself.demo.app-merged_res-71:\\drawable_goodfb.png.flat",
