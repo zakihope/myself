@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myself.demo.app-mergeDebugResources-68:/values-or/values-or.xml",
+            "outputFile": "com.myself.demo.app-mergeDebugResources-69:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\22981b89fa17cc8fb332b4379c7351bb\\transformed\\ui-1.1.0-rc01\\res\\values-or\\values-or.xml",

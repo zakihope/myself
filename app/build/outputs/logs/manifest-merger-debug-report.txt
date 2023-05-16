@@ -8,6 +8,7 @@ MERGED from [org.imaginativeworld.whynotimagecarousel:whynotimagecarousel:2.1.0]
 MERGED from [androidx.databinding:viewbinding:8.0.1] C:\Users\pc\.gradle\caches\transforms-3\050623bd3b36bd730c5d2e5cdfc016db\transformed\viewbinding-8.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\pc\.gradle\caches\transforms-3\2b56623c6e28aa26f7637af407b702c1\transformed\core-11.1.0\AndroidManifest.xml:2:1-12:12
 MERGED from [nl.dionsegijn:konfetti-compose:2.0.2] C:\Users\pc\.gradle\caches\transforms-3\03e3ccf667f706dddea6219227a2ab64\transformed\konfetti-compose-2.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\60ecf86e2f6be21db0edb3db44351f05\transformed\chip-navigation-bar-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.compose.foundation:foundation:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\0f3c62970fc35aafec7989793cceb10f\transformed\foundation-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.animation:animation:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\576eb303f56516f2e865cfee1d68e4e8\transformed\animation-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.compose.foundation:foundation-layout:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\dc8375b3ee2070db83677f3b0a0396bc\transformed\foundation-layout-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
@@ -279,6 +280,8 @@ MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Use
 MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0] C:\Users\pc\.gradle\caches\transforms-3\2b56623c6e28aa26f7637af407b702c1\transformed\core-11.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [nl.dionsegijn:konfetti-compose:2.0.2] C:\Users\pc\.gradle\caches\transforms-3\03e3ccf667f706dddea6219227a2ab64\transformed\konfetti-compose-2.0.2\AndroidManifest.xml:5:5-7:41
 MERGED from [nl.dionsegijn:konfetti-compose:2.0.2] C:\Users\pc\.gradle\caches\transforms-3\03e3ccf667f706dddea6219227a2ab64\transformed\konfetti-compose-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\60ecf86e2f6be21db0edb3db44351f05\transformed\chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ismaeldivita:chip-navigation-bar:1.4.0] C:\Users\pc\.gradle\caches\transforms-3\60ecf86e2f6be21db0edb3db44351f05\transformed\chip-navigation-bar-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.compose.foundation:foundation:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\0f3c62970fc35aafec7989793cceb10f\transformed\foundation-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.foundation:foundation:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\0f3c62970fc35aafec7989793cceb10f\transformed\foundation-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.compose.animation:animation:1.1.0-rc01] C:\Users\pc\.gradle\caches\transforms-3\576eb303f56516f2e865cfee1d68e4e8\transformed\animation-1.1.0-rc01\AndroidManifest.xml:20:5-22:41

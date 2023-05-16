@@ -368,6 +368,23 @@ attr closeIconStartPadding
 attr closeIconTint
 attr closeIconVisible
 attr closeItemLayout
+attr cnb_addBottomInset
+attr cnb_addLeftInset
+attr cnb_addRightInset
+attr cnb_addTopInset
+attr cnb_animationDuration
+attr cnb_backgroundColor
+attr cnb_badgeColor
+attr cnb_iconColor
+attr cnb_iconSize
+attr cnb_iconTintMode
+attr cnb_menuResource
+attr cnb_minExpandedWidth
+attr cnb_orientationMode
+attr cnb_radius
+attr cnb_textAppearance
+attr cnb_textColor
+attr cnb_unselectedColor
 attr collapseContentDescription
 attr collapseIcon
 attr collapsedSize
@@ -1523,6 +1540,8 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color chart
+color cnb_default_badge_color
+color cnb_default_unselected_color
 color colorPrimary
 color colorPrimaryDark
 color color_nav
@@ -2350,6 +2369,15 @@ dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
 dimen clock_face_margin_start
+dimen cnb_badge_size
+dimen cnb_badge_size_numberless
+dimen cnb_badge_stroke_width
+dimen cnb_badge_text_size
+dimen cnb_icon_size
+dimen cnb_space_0
+dimen cnb_space_1
+dimen cnb_space_2
+dimen cnb_space_3
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -3054,6 +3082,7 @@ dimen tooltip_precise_anchor_threshold
 dimen tooltip_vertical_padding
 dimen tooltip_y_offset_non_touch
 dimen tooltip_y_offset_touch
+drawable a
 drawable abc_ab_share_pack_mtrl_alpha
 drawable abc_action_bar_item_background_material
 drawable abc_btn_borderless_material
@@ -3157,6 +3186,7 @@ drawable ayp_ic_pause_36dp
 drawable ayp_ic_play_36dp
 drawable ayp_ic_youtube_24dp
 drawable ayp_shape_rounded_corners
+drawable b
 drawable balance_image
 drawable baseline_lock_open_24
 drawable bell
@@ -3170,6 +3200,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable c
 drawable calendar_lines__1_
 drawable carousel_default_placeholder
 drawable category
@@ -3197,6 +3228,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable custom_edittext
+drawable d
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3205,10 +3237,13 @@ drawable design_snackbar_background
 drawable dialoge_bk
 drawable dialoge_bk2
 drawable document__1_
+drawable e
 drawable envelope__1_
+drawable f
 drawable facebook_1
 drawable fil_filed
 drawable file
+drawable g
 drawable goodfb
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3218,6 +3253,7 @@ drawable hdymadis
 drawable hello_image
 drawable home
 drawable home_selected
+drawable i
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3250,12 +3286,16 @@ drawable ic_search
 drawable ic_search_black_24
 drawable icondymadis
 drawable icondymadis1
+drawable j
+drawable k
+drawable l
 drawable laoding_gif
 drawable leadership
 drawable logo
 drawable logo_instagram_1
 drawable logo_twitter_1
 drawable logo_youtube_1
+drawable m
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3317,6 +3357,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable n
 drawable navigation_empty_icon
 drawable no_internet
 drawable notification_action_background
@@ -3457,6 +3498,7 @@ id action_divider
 id action_forumFragment_to_helloFragment
 id action_forumFragment_to_homeFragment
 id action_helloFragment_to_forumFragment
+id action_homeFragment_to_categoryNextFragment
 id action_homeFragment_to_forumFragment
 id action_image
 id action_menu_divider
@@ -3468,6 +3510,7 @@ id action_profileFragment_to_homeFragment
 id action_quizFragment_self
 id action_quizFragment_to_categoryNextFragment
 id action_quizFragment_to_resultFragment
+id action_resultFragment_to_homeFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -3484,6 +3527,11 @@ id androidx_compose_ui_view_composition_context
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
+id anser1
+id anser2
+id anser3
+id anser4
+id anser5
 id antiClockwise
 id anticipate
 id arc
@@ -3494,6 +3542,8 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id auto_complete_txt
+id back
+id backQuiz
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3525,6 +3575,9 @@ id card8
 id carryVelocity
 id categoryNextFragment
 id categourieFragment
+id cbn_item_internal_container
+id cbn_item_notification_count
+id cbn_item_title
 id center
 id centerCrop
 id centerInside
@@ -3543,6 +3596,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cnb_item_icon
 id collapseActionView
 id compose_view_saveable_id_tag
 id compress
@@ -3675,8 +3729,8 @@ id image3
 id image4
 id image5
 id image6
-id image7
 id imageView
+id imageView1
 id img
 id immediateStop
 id included
@@ -3832,6 +3886,7 @@ id profileFragment
 id progress
 id progress_circular
 id progress_horizontal
+id quizBody
 id quizFragment
 id radial
 id radio
@@ -3956,17 +4011,13 @@ id text11
 id text12
 id text2
 id text3
-id text4
-id text5
-id text6
-id text7
-id text8
 id text9
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input
 id text_input_end_icon
 id text_input_error_icon
@@ -3978,6 +4029,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id titelquiz
 id title
 id titleDividerNoCustom
 id title_template
@@ -4005,6 +4057,7 @@ id username_box
 id vertical
 id vertical_only
 id video_title
+id viewPager2
 id view_bottom_shadow
 id view_offset_helper
 id view_top_shadow
@@ -4153,6 +4206,8 @@ layout ayp_default_player_ui
 layout ayp_empty_layout
 layout ayp_menu_item
 layout ayp_player_menu
+layout cnb_horizontal_menu_item
+layout cnb_vertical_menu_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4171,7 +4226,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_category
 layout fragment_category_next
-layout fragment_categourie
 layout fragment_forum
 layout fragment_hello
 layout fragment_home
@@ -4179,6 +4233,7 @@ layout fragment_profile
 layout fragment_quiz
 layout fragment_result
 layout image_carousel
+layout image_container
 layout item_carousel
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -5723,6 +5778,8 @@ styleable ChartAttrs chart_axis chart_grid chart_gridColor chart_gridEffect char
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable ChipMenuItem android_icon android_enabled android_id android_title android_contentDescription cnb_backgroundColor cnb_iconColor cnb_iconTintMode cnb_textColor
+styleable ChipNavigationBar cnb_addBottomInset cnb_addLeftInset cnb_addRightInset cnb_addTopInset cnb_animationDuration cnb_badgeColor cnb_iconSize cnb_menuResource cnb_minExpandedWidth cnb_orientationMode cnb_radius cnb_textAppearance cnb_unselectedColor
 styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor

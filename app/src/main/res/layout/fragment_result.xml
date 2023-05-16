@@ -23,7 +23,7 @@
             android:lineHeight="21sp"
             android:text="مستوى تقدير الذات لديك"
             android:textColor="@color/black"
-            android:textSize="12sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -47,89 +47,77 @@
 
         <TextView
             android:id="@+id/text3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="32dp"
             android:fontFamily="@font/noorregular"
             android:gravity="center"
-            android:lineHeight="21sp"
-            android:text="أنت بحاجة للحصول على اختبار مع معالج نفسي مختص"
+            android:lineHeight="30sp"
+            android:text="أنت بحاجة للحصول على برنامج تدريبي على الخيل في أقرب وقت"
             android:textColor="@color/black"
-            android:textSize="12sp"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text2" />
 
-        <TextView
-            android:id="@+id/percentag1"
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
             android:layout_width="0dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="32dp"
+            android:paddingStart="80dp"
+            android:paddingEnd="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
             android:fontFamily="@font/noorregular"
-            android:gravity="start"
-            android:text="50 %"
+            android:gravity="center"
+            android:lineHeight="30sp"
+            android:text="يهدف البرنامج التدريبي على الخيل إلى مساعدتك على بناء ثقتك بنفسك وهو جزءا مهم من تقديرك لذاتك، فتعلم الركوب جزء من البرنامج وهو أيضا للحد من الأعراض النفسية أو الجسدية أو تخفيفها، "
             android:textColor="@color/black"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text3" />
-
-        <ProgressBar
-            android:id="@+id/loading"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:rotation="180"
-            android:scaleY="2"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text3" />
+            app:layout_constraintTop_toBottomOf="@+id/viewPager2" />
 
-        <ProgressBar
-            android:id="@+id/loading1"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="@dimen/dimen200dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:rotation="180"
-            android:scaleY="2"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:outlineSpotShadowColor="@color/my_self"
+            app:cardBackgroundColor="@color/ms_grey"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loading" />
+            app:layout_constraintTop_toBottomOf="@+id/textView">
 
-        <ProgressBar
-            android:id="@+id/loading2"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:rotation="180"
-            android:scaleY="2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loading1" />
-
-        <ProgressBar
-            android:id="@+id/loading3"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:rotation="180"
-            android:scaleY="2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/loading2" />
-
-
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/noorbold"
+                android:gravity="center"
+                android:padding="@dimen/dimen8dp"
+                android:text="احجز الآن"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/card3" />
+        </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

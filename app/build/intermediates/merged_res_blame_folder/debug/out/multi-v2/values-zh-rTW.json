@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.myself.demo.app-mergeDebugResources-68:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.myself.demo.app-mergeDebugResources-69:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\5bcf5e131d0ab850bceed8dbd923ed61\\transformed\\play-services-basement-18.0.0\\res\\values-zh-rTW\\values.xml",

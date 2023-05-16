@@ -37,7 +37,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <TextView
-            android:id="@+id/text2"
+            android:id="@+id/titelquiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/noorregular"
@@ -61,7 +61,7 @@
             app:cardCornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text2">
+            app:layout_constraintTop_toBottomOf="@+id/titelquiz">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                 android:padding="@dimen/dimen8dp">
 
                 <TextView
-                    android:id="@+id/text3"
+                    android:id="@+id/quizBody"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/noorregular"
@@ -81,7 +81,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/text4"
+                    android:id="@+id/anser1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -92,7 +92,7 @@
                     android:textSize="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text3" />
+                    app:layout_constraintTop_toBottomOf="@+id/quizBody" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -119,7 +119,7 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/text5"
+                    android:id="@+id/anser2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/noorregular"
@@ -130,10 +130,10 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text4" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser1" />
 
                 <TextView
-                    android:id="@+id/text6"
+                    android:id="@+id/anser3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen12dp"
@@ -144,7 +144,7 @@
                     android:textSize="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text5" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser2" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -170,7 +170,7 @@
                 android:padding="@dimen/dimen8dp">
 
                 <TextView
-                    android:id="@+id/text7"
+                    android:id="@+id/anser4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/noorregular"
@@ -181,10 +181,10 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text6" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser3" />
 
                 <TextView
-                    android:id="@+id/text8"
+                    android:id="@+id/anser5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen12dp"
@@ -195,7 +195,7 @@
                     android:textSize="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text7" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser4" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

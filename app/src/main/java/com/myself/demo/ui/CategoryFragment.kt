@@ -38,6 +38,6 @@ class CategoryFragment : Fragment() {
                 }
             }
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)
-        binding.card2.setOnClickListener({ v->findNavController().navigate(R.id.action_categourieFragment_to_categoryNextFragment) })
+        binding.card2.setOnClickListener{findNavController().navigate(R.id.action_categourieFragment_to_categoryNextFragment) }
     }
 }

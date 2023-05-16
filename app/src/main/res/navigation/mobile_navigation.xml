@@ -17,6 +17,9 @@
             app:destination="@id/forumFragment"
             app:popUpTo="@id/forumFragment"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_categoryNextFragment"
+            app:destination="@id/categoryNextFragment" />
 
     </fragment>
     <fragment
@@ -99,7 +102,13 @@
         android:id="@+id/resultFragment"
         android:name="com.myself.demo.ui.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 
 
 </navigation>

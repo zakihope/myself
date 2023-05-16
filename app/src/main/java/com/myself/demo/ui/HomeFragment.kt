@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentHomeBinding
@@ -24,7 +25,11 @@ class HomeFragment : Fragment() {
 
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         val navBar = activity?.findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         navBar?.setVisibility(View.VISIBLE)
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
@@ -47,17 +52,20 @@ class HomeFragment : Fragment() {
         binding.loading1.max = 100
         binding.loading2.max = 100
         binding.loading3.max = 100
-        val val1=70
-        val val2=60
-        val val3=50
-        val val0=(val1+val2+val3)/3
-        ObjectAnimator.ofInt(binding.loading,"progress",val0).setDuration(1000).start()
+        val val1 = 70
+        val val2 = 60
+        val val3 = 50
+        val val0 = (val1 + val2 + val3) / 3
+        ObjectAnimator.ofInt(binding.loading, "progress", val0).setDuration(1000).start()
         binding.percentag1.text = "$val0 %"
-        ObjectAnimator.ofInt(binding.loading1,"progress",val1).setDuration(1000).start()
+        ObjectAnimator.ofInt(binding.loading1, "progress", val1).setDuration(1000).start()
         binding.percentag2.text = "$val1%"
-        ObjectAnimator.ofInt(binding.loading2,"progress",val2).setDuration(1000).start()
+        ObjectAnimator.ofInt(binding.loading2, "progress", val2).setDuration(1000).start()
         binding.percentag3.text = "$val2 %"
-        ObjectAnimator.ofInt(binding.loading3,"progress",val3).setDuration(1000).start()
+        ObjectAnimator.ofInt(binding.loading3, "progress", val3).setDuration(1000).start()
         binding.percentag4.text = "$val3 %"
+
+        binding.card1.setOnClickListener { findNavController().navigate(R.id.action_homeFragment_to_categoryNextFragment) }
+
     }
 }

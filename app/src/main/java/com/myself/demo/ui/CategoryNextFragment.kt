@@ -26,6 +26,6 @@ class CategoryNextFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.card2.setOnClickListener({ v->findNavController().navigate(R.id.action_categoryNextFragment_to_quizFragment) })
+        binding.card2.setOnClickListener{ findNavController().navigate(R.id.action_categoryNextFragment_to_quizFragment) }
     }
 }

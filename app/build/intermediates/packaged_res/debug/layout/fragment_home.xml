@@ -154,7 +154,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text2"
+                    android:id="@+id/titelquiz"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -171,7 +171,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text3"
+                    android:id="@+id/quizBody"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -184,7 +184,7 @@
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/image1"
-                    app:layout_constraintTop_toBottomOf="@+id/text2" />
+                    app:layout_constraintTop_toBottomOf="@+id/titelquiz" />
 
                 <TextView
                     android:id="@+id/percentag2"
@@ -198,7 +198,7 @@
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text3" />
+                    app:layout_constraintTop_toBottomOf="@+id/quizBody" />
 
                 <ProgressBar
                     android:id="@+id/loading1"
@@ -213,7 +213,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/percentag2"
                     app:layout_constraintStart_toEndOf="@+id/image1"
-                    app:layout_constraintTop_toBottomOf="@+id/text3" />
+                    app:layout_constraintTop_toBottomOf="@+id/quizBody" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -250,7 +250,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text4"
+                    android:id="@+id/anser1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -267,7 +267,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text5"
+                    android:id="@+id/anser2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -280,7 +280,7 @@
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/image2"
-                    app:layout_constraintTop_toBottomOf="@+id/text4" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser1" />
 
                 <TextView
                     android:id="@+id/percentag3"
@@ -294,7 +294,7 @@
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text5" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser2" />
 
                 <ProgressBar
                     android:id="@+id/loading2"
@@ -309,7 +309,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/percentag3"
                     app:layout_constraintStart_toEndOf="@+id/image2"
-                    app:layout_constraintTop_toBottomOf="@+id/text5" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser2" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
@@ -347,7 +347,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text6"
+                    android:id="@+id/anser3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -364,7 +364,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/text7"
+                    android:id="@+id/anser4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -377,7 +377,7 @@
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/image3"
-                    app:layout_constraintTop_toBottomOf="@+id/text6" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser3" />
 
                 <TextView
                     android:id="@+id/percentag4"
@@ -391,7 +391,7 @@
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/text7" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser4" />
 
                 <ProgressBar
                     android:id="@+id/loading3"
@@ -406,7 +406,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/percentag4"
                     app:layout_constraintStart_toEndOf="@+id/image3"
-                    app:layout_constraintTop_toBottomOf="@+id/text7" />
+                    app:layout_constraintTop_toBottomOf="@+id/anser4" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
