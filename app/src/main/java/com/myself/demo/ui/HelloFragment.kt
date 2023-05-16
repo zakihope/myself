@@ -1,21 +1,15 @@
 package com.myself.demo.ui
 
-import android.animation.ObjectAnimator
-import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.cardview.widget.CardView
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentHelloBinding
-import com.myself.demo.databinding.FragmentHomeBinding
-import com.myself.demo.databinding.FragmentQuizBinding
 
 class HelloFragment : Fragment() {
 
@@ -31,10 +25,9 @@ class HelloFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentHelloBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

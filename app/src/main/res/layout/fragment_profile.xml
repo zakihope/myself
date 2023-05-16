@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/my_self">
@@ -18,7 +17,6 @@
 
 
         <TextView
-            android:id="@+id/helpCenter"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -39,7 +37,6 @@
 
 
         <TextView
-            android:id="@+id/rateUs"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -59,7 +56,6 @@
             app:drawableStartCompat="@drawable/arow" />
 
         <TextView
-            android:id="@+id/notification"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -79,7 +75,6 @@
             app:drawableStartCompat="@drawable/arow" />
 
         <TextView
-            android:id="@+id/settings"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -99,7 +94,6 @@
             app:drawableStartCompat="@drawable/arow" />
 
         <TextView
-            android:id="@+id/condition"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -119,7 +113,6 @@
             app:drawableStartCompat="@drawable/arow" />
 
         <TextView
-            android:id="@+id/privecy"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -139,7 +132,6 @@
             app:drawableStartCompat="@drawable/arow" />
 
         <TextView
-            android:id="@+id/privecy1"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
@@ -203,28 +195,24 @@
             app:layout_constraintTop_toBottomOf="@+id/res_sec_tex">
 
             <ImageButton
-                android:id="@+id/facebook"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimen24dp"
                 android:background="@drawable/facebook_1" />
 
             <ImageButton
-                android:id="@+id/instagram"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimen24dp"
                 android:background="@drawable/logo_instagram_1" />
 
             <ImageButton
-                android:id="@+id/twitre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/dimen24dp"
                 android:background="@drawable/logo_twitter_1" />
 
             <ImageButton
-                android:id="@+id/youtube"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/logo_youtube_1" />
@@ -232,7 +220,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"

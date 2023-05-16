@@ -19,7 +19,6 @@ import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import com.myself.demo.R
 import com.myself.demo.adapter.ImageAdapter
-import com.myself.demo.databinding.FragmentQuizBinding
 import com.myself.demo.databinding.FragmentResultBinding
 import java.lang.Math.abs
 
@@ -31,18 +30,14 @@ class ResultFragment : Fragment() {
     private lateinit var handler: Handler
     private lateinit var imageList: ArrayList<Int>
     private lateinit var adapter: ImageAdapter
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentResultBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

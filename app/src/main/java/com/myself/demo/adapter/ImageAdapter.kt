@@ -7,14 +7,12 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.myself.demo.R
-import com.myself.demo.model.Anser
-import com.myself.demo.model.Question
 
 class ImageAdapter (private val imageList: ArrayList<Int>, private val viewPager2: ViewPager2) :
     RecyclerView.Adapter<ImageAdapter.ImageViewHolder>() {
 
     class ImageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val imageView: ImageView = itemView.findViewById(R.id.imageView1);
+        val imageView: ImageView = itemView.findViewById(R.id.imageView1)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {

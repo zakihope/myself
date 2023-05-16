@@ -2,14 +2,13 @@ package com.myself.demo.ui
 
 import android.animation.ObjectAnimator
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.myself.demo.Constants
+import com.myself.demo.utlis.Constants
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentQuizBinding
 import com.myself.demo.model.Test
@@ -22,18 +21,14 @@ class QuizFragment : Fragment() {
     val arrQuiz = Constants().getQuestion()
     var QuizNumbe = 1
     val test = Test(0, 0, 0)
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentQuizBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

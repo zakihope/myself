@@ -1,22 +1,18 @@
 package com.myself.demo.ui
 
-import android.opengl.Visibility
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.AutoCompleteTextView
 import androidx.activity.OnBackPressedCallback
-import androidx.cardview.widget.CardView
+import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentForumBinding
-import com.myself.demo.databinding.FragmentHelloBinding
 
 class ForumFragment : Fragment() {
     private var _binding: FragmentForumBinding? = null
@@ -37,7 +33,7 @@ class ForumFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentForumBinding.inflate(inflater, container, false)
 
        val adapter1 = ArrayAdapter(requireContext(), android.R.layout.simple_dropdown_item_1line, items1)
