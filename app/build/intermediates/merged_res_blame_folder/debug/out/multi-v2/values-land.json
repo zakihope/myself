@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.myself.demo.app-mergeDebugResources-68:/values-land/values-land.xml",
+            "outputFile": "com.myself.demo.app-mergeDebugResources-2:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\caa177275e0f7a1715f106eefde9c911\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Dell E5580\\.gradle\\caches\\transforms-3\\caa177275e0f7a1715f106eefde9c911\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -21,7 +21,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\82f63db3c692749b47897530952d8595\\transformed\\material-1.9.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Dell E5580\\.gradle\\caches\\transforms-3\\22981b89fa17cc8fb332b4379c7351bb\\transformed\\ui-1.1.0-rc01\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell E5580\\.gradle\\caches\\transforms-3\\82f63db3c692749b47897530952d8595\\transformed\\material-1.9.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -37,16 +47,6 @@
                         "endLines": "6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,29,38,43,46",
                         "endColumns": "74,73,72,69,71,69,64,66,69,71,68,68,81,89,75,67,66,77,64,66,10,10,10,10",
                         "endOffsets": "383,457,530,600,672,742,807,874,944,1016,1085,1154,1236,1326,1402,1470,1537,1615,1680,1747,1919,2488,2757,2985"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\22981b89fa17cc8fb332b4379c7351bb\\transformed\\ui-1.1.0-rc01\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
                     }
                 }
             ]

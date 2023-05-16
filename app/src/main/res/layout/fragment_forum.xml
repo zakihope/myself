@@ -53,7 +53,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/text2"
+                    android:id="@+id/titelquiz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -79,7 +79,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text3"
+                android:id="@+id/quizBody"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/noorregular"
@@ -92,7 +92,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/text4"
+                android:id="@+id/anser1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/noorregular"
@@ -100,7 +100,7 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/text3"
+                app:layout_constraintEnd_toStartOf="@+id/quizBody"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -136,7 +136,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card2">
 
             <TextView
-                android:id="@+id/text5"
+                android:id="@+id/anser2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/noorregular"
@@ -173,7 +173,7 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
-            android:id="@+id/text7"
+            android:id="@+id/anser4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -196,7 +196,7 @@
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text7">
+            app:layout_constraintTop_toBottomOf="@+id/anser4">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -206,7 +206,7 @@
                 android:padding="@dimen/dimen8dp">
 
                 <TextView
-                    android:id="@+id/text8"
+                    android:id="@+id/anser5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/noorregular"
@@ -240,7 +240,7 @@
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text7">
+            app:layout_constraintTop_toBottomOf="@+id/anser4">
 
             <LinearLayout
                 android:layout_width="wrap_content"

@@ -1,73 +1,73 @@
-com.myself.demo.app-activity-1.6.0-0 C:\Users\pc\.gradle\caches\transforms-3\04c317cd856a97f11e1354ef0649e877\transformed\activity-1.6.0\res
-com.myself.demo.app-foundation-1.1.0-rc01-1 C:\Users\pc\.gradle\caches\transforms-3\0f3c62970fc35aafec7989793cceb10f\transformed\foundation-1.1.0-rc01\res
-com.myself.demo.app-emoji2-1.2.0-2 C:\Users\pc\.gradle\caches\transforms-3\0fe061f81d849408b151b407a92bb4c3\transformed\emoji2-1.2.0\res
-com.myself.demo.app-core-1.10.3-3 C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\res
-com.myself.demo.app-core-1.10.1-4 C:\Users\pc\.gradle\caches\transforms-3\18568efb7ae1ef1c2d49c8a110fefbb8\transformed\core-1.10.1\res
-com.myself.demo.app-constraintlayout-2.1.4-5 C:\Users\pc\.gradle\caches\transforms-3\1a0ad9a2d6a5daf669506071f02ee063\transformed\constraintlayout-2.1.4\res
-com.myself.demo.app-navigation-fragment-2.5.3-6 C:\Users\pc\.gradle\caches\transforms-3\1ce4d2507b786f8b18756fa4b4962db7\transformed\navigation-fragment-2.5.3\res
-com.myself.demo.app-ui-util-1.1.0-rc01-7 C:\Users\pc\.gradle\caches\transforms-3\1ec3889bfaf597a053880fa377704720\transformed\ui-util-1.1.0-rc01\res
-com.myself.demo.app-ui-1.1.0-rc01-8 C:\Users\pc\.gradle\caches\transforms-3\22981b89fa17cc8fb332b4379c7351bb\transformed\ui-1.1.0-rc01\res
-com.myself.demo.app-startup-runtime-1.1.1-9 C:\Users\pc\.gradle\caches\transforms-3\23beed4f175ee56176e165a251ae364e\transformed\startup-runtime-1.1.1\res
-com.myself.demo.app-lifecycle-livedata-core-ktx-2.5.1-10 C:\Users\pc\.gradle\caches\transforms-3\2b297eed2fff4bd47c0b6b159838c0de\transformed\lifecycle-livedata-core-ktx-2.5.1\res
-com.myself.demo.app-core-11.1.0-11 C:\Users\pc\.gradle\caches\transforms-3\2b56623c6e28aa26f7637af407b702c1\transformed\core-11.1.0\res
-com.myself.demo.app-lifecycle-viewmodel-2.5.1-12 C:\Users\pc\.gradle\caches\transforms-3\2e4005290ea5efa9e57960de0ec4b955\transformed\lifecycle-viewmodel-2.5.1\res
-com.myself.demo.app-lifecycle-livedata-2.5.1-13 C:\Users\pc\.gradle\caches\transforms-3\31b8cdfcc88e5202f059a9c61729903d\transformed\lifecycle-livedata-2.5.1\res
-com.myself.demo.app-runtime-saveable-1.1.0-rc01-14 C:\Users\pc\.gradle\caches\transforms-3\35e1f4f06d62ed61bc511a2a59663380\transformed\runtime-saveable-1.1.0-rc01\res
-com.myself.demo.app-williamchart-3.10.1-15 C:\Users\pc\.gradle\caches\transforms-3\3dcef936bcd0acbe4eb10dadfaf12e02\transformed\williamchart-3.10.1\res
-com.myself.demo.app-window-1.0.0-16 C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\res
-com.myself.demo.app-slidingpanelayout-1.2.0-17 C:\Users\pc\.gradle\caches\transforms-3\4196a4bdcc9f5ae95c8247ca5d280a3f\transformed\slidingpanelayout-1.2.0\res
-com.myself.demo.app-transition-1.4.1-18 C:\Users\pc\.gradle\caches\transforms-3\42f2c33beee96d00347d7019f6236aad\transformed\transition-1.4.1\res
-com.myself.demo.app-lifecycle-runtime-2.5.1-19 C:\Users\pc\.gradle\caches\transforms-3\495f051f83a736b2c43a45b77e3fee36\transformed\lifecycle-runtime-2.5.1\res
-com.myself.demo.app-lifecycle-viewmodel-savedstate-2.5.1-20 C:\Users\pc\.gradle\caches\transforms-3\53b858246fb2f8d63f3a03933b3edbcf\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
-com.myself.demo.app-animation-1.1.0-rc01-21 C:\Users\pc\.gradle\caches\transforms-3\576eb303f56516f2e865cfee1d68e4e8\transformed\animation-1.1.0-rc01\res
-com.myself.demo.app-play-services-basement-18.0.0-22 C:\Users\pc\.gradle\caches\transforms-3\5bcf5e131d0ab850bceed8dbd923ed61\transformed\play-services-basement-18.0.0\res
-com.myself.demo.app-ui-text-1.1.0-rc01-23 C:\Users\pc\.gradle\caches\transforms-3\5bfe56882c1eed849e68f3f9d9c3f162\transformed\ui-text-1.1.0-rc01\res
-com.myself.demo.app-glide-4.14.2-24 C:\Users\pc\.gradle\caches\transforms-3\65a6b7f24bbbc291ec7eb239f82988f9\transformed\glide-4.14.2\res
-com.myself.demo.app-navigation-runtime-ktx-2.5.3-25 C:\Users\pc\.gradle\caches\transforms-3\6b7af760bad822681f72afd47d5fe338\transformed\navigation-runtime-ktx-2.5.3\res
-com.myself.demo.app-roundedimageview-2.3.0-26 C:\Users\pc\.gradle\caches\transforms-3\756ba76c32dda682f59086e34d163621\transformed\roundedimageview-2.3.0\res
-com.myself.demo.app-recyclerview-1.2.1-27 C:\Users\pc\.gradle\caches\transforms-3\7607b75443f1f9ea4e33f02c0b1f4af2\transformed\recyclerview-1.2.1\res
-com.myself.demo.app-navigation-ui-ktx-2.5.3-28 C:\Users\pc\.gradle\caches\transforms-3\78219941633dbebd6f91c1f97fdf531d\transformed\navigation-ui-ktx-2.5.3\res
-com.myself.demo.app-lifecycle-runtime-ktx-2.5.1-29 C:\Users\pc\.gradle\caches\transforms-3\7d23026e7a5991e03d1abb048af7f63c\transformed\lifecycle-runtime-ktx-2.5.1\res
-com.myself.demo.app-navigation-common-ktx-2.5.3-30 C:\Users\pc\.gradle\caches\transforms-3\7e7aa320f16f419eb201be1313d57320\transformed\navigation-common-ktx-2.5.3\res
-com.myself.demo.app-material-1.9.0-31 C:\Users\pc\.gradle\caches\transforms-3\82f63db3c692749b47897530952d8595\transformed\material-1.9.0\res
-com.myself.demo.app-ui-unit-1.1.0-rc01-32 C:\Users\pc\.gradle\caches\transforms-3\86477cf47d3a8925d01ee3c6dc964f9b\transformed\ui-unit-1.1.0-rc01\res
-com.myself.demo.app-navigation-runtime-2.5.3-33 C:\Users\pc\.gradle\caches\transforms-3\8778437bed06506029595d15a05032ab\transformed\navigation-runtime-2.5.3\res
-com.myself.demo.app-emoji2-views-helper-1.2.0-34 C:\Users\pc\.gradle\caches\transforms-3\8792b76ca9ff53ffeb21bdf48f6bb00c\transformed\emoji2-views-helper-1.2.0\res
-com.myself.demo.app-viewpager2-1.0.0-35 C:\Users\pc\.gradle\caches\transforms-3\88eb856e960904d5f8b50f59a37af7d7\transformed\viewpager2-1.0.0\res
-com.myself.demo.app-lifecycle-livedata-core-2.5.1-36 C:\Users\pc\.gradle\caches\transforms-3\8e89b973ba352e4cc2613f0606f1b349\transformed\lifecycle-livedata-core-2.5.1\res
-com.myself.demo.app-circleimageview-3.1.0-37 C:\Users\pc\.gradle\caches\transforms-3\94266beeebb1e4dff7553bc983545f98\transformed\circleimageview-3.1.0\res
-com.myself.demo.app-lifecycle-process-2.4.1-38 C:\Users\pc\.gradle\caches\transforms-3\9613ff1c2744f7ec3526157eb9efe952\transformed\lifecycle-process-2.4.1\res
-com.myself.demo.app-core-ktx-1.10.1-39 C:\Users\pc\.gradle\caches\transforms-3\9c726104966dea6eef7b67474dd417ca\transformed\core-ktx-1.10.1\res
-com.myself.demo.app-cardview-1.0.0-40 C:\Users\pc\.gradle\caches\transforms-3\b26087510e15192491d30a2579d8f558\transformed\cardview-1.0.0\res
-com.myself.demo.app-annotation-experimental-1.3.0-41 C:\Users\pc\.gradle\caches\transforms-3\b6862f633c137cacd39d5b5a842bc69e\transformed\annotation-experimental-1.3.0\res
-com.myself.demo.app-drawerlayout-1.1.1-42 C:\Users\pc\.gradle\caches\transforms-3\b70a6b7a093bc1f88bc7bc2faa3270a8\transformed\drawerlayout-1.1.1\res
-com.myself.demo.app-activity-ktx-1.6.0-43 C:\Users\pc\.gradle\caches\transforms-3\b93a2734ede6fbde3488eaefde90bfef\transformed\activity-ktx-1.6.0\res
-com.myself.demo.app-appcompat-resources-1.6.1-44 C:\Users\pc\.gradle\caches\transforms-3\ba61f293b3253fff6bdbcd4bedd404c3\transformed\appcompat-resources-1.6.1\res
-com.myself.demo.app-savedstate-ktx-1.2.0-45 C:\Users\pc\.gradle\caches\transforms-3\bd70d9126e9c5d9fe0609dda64372f14\transformed\savedstate-ktx-1.2.0\res
-com.myself.demo.app-android-gif-drawable-1.2.25-46 C:\Users\pc\.gradle\caches\transforms-3\bf741020b3b9410da3641e2e9a12a803\transformed\android-gif-drawable-1.2.25\res
-com.myself.demo.app-profileinstaller-1.1.0-rc01-47 C:\Users\pc\.gradle\caches\transforms-3\c2ca4eb212143d8bd35bdc6fd54d4344\transformed\profileinstaller-1.1.0-rc01\res
-com.myself.demo.app-fragment-ktx-1.5.4-48 C:\Users\pc\.gradle\caches\transforms-3\c2da3b26c2aeb45a820bc9473067be6d\transformed\fragment-ktx-1.5.4\res
-com.myself.demo.app-navigation-ui-2.5.3-49 C:\Users\pc\.gradle\caches\transforms-3\c3924f2f509d01b31633ba3c9f59db5f\transformed\navigation-ui-2.5.3\res
-com.myself.demo.app-ui-geometry-1.1.0-rc01-50 C:\Users\pc\.gradle\caches\transforms-3\c3c0d4abc6ae5474207bc8e9a0d77a61\transformed\ui-geometry-1.1.0-rc01\res
-com.myself.demo.app-appcompat-1.6.1-51 C:\Users\pc\.gradle\caches\transforms-3\caa177275e0f7a1715f106eefde9c911\transformed\appcompat-1.6.1\res
-com.myself.demo.app-coordinatorlayout-1.1.0-52 C:\Users\pc\.gradle\caches\transforms-3\cacb5473d80a2fb81d83f6aab278283a\transformed\coordinatorlayout-1.1.0\res
-com.myself.demo.app-whynotimagecarousel-2.1.0-debug-53 C:\Users\pc\.gradle\caches\transforms-3\cd0e90c12dc1c2166a2378977e2c3b3c\transformed\whynotimagecarousel-2.1.0-debug\res
-com.myself.demo.app-fragment-1.5.4-54 C:\Users\pc\.gradle\caches\transforms-3\cd211a1006837de64524cf7682ebdb63\transformed\fragment-1.5.4\res
-com.myself.demo.app-lifecycle-viewmodel-ktx-2.5.1-55 C:\Users\pc\.gradle\caches\transforms-3\cf0fc4c1ab5edd3d7c29ea9729cd08ff\transformed\lifecycle-viewmodel-ktx-2.5.1\res
-com.myself.demo.app-play-services-base-18.0.1-56 C:\Users\pc\.gradle\caches\transforms-3\d094ae819333c251be6446e2be5a2e13\transformed\play-services-base-18.0.1\res
-com.myself.demo.app-animation-core-1.1.0-rc01-57 C:\Users\pc\.gradle\caches\transforms-3\d376691829543dad19693e4576056054\transformed\animation-core-1.1.0-rc01\res
-com.myself.demo.app-savedstate-1.2.0-58 C:\Users\pc\.gradle\caches\transforms-3\d79e273b4e230832f37d1f2aea9b0d23\transformed\savedstate-1.2.0\res
-com.myself.demo.app-ui-graphics-1.1.0-rc01-59 C:\Users\pc\.gradle\caches\transforms-3\d90824cb315aa59c92da9a43b4802729\transformed\ui-graphics-1.1.0-rc01\res
-com.myself.demo.app-foundation-layout-1.1.0-rc01-60 C:\Users\pc\.gradle\caches\transforms-3\dc8375b3ee2070db83677f3b0a0396bc\transformed\foundation-layout-1.1.0-rc01\res
-com.myself.demo.app-circleindicator-2.1.6-61 C:\Users\pc\.gradle\caches\transforms-3\dd37abe56dc9a97ce5893ca47a726630\transformed\circleindicator-2.1.6\res
-com.myself.demo.app-navigation-common-2.5.3-62 C:\Users\pc\.gradle\caches\transforms-3\e6b0d012d3ad8e6dd61fa8b6ba088692\transformed\navigation-common-2.5.3\res
-com.myself.demo.app-shimmer-0.5.0-63 C:\Users\pc\.gradle\caches\transforms-3\f3526e0b58788a9cf0c3a1d929a0d7bf\transformed\shimmer-0.5.0\res
-com.myself.demo.app-navigation-fragment-ktx-2.5.3-64 C:\Users\pc\.gradle\caches\transforms-3\f8a232b493fcb78848d59b1441a31753\transformed\navigation-fragment-ktx-2.5.3\res
-com.myself.demo.app-runtime-1.1.0-rc01-65 C:\Users\pc\.gradle\caches\transforms-3\faaa424316f6b7bec59140c9e3c0a487\transformed\runtime-1.1.0-rc01\res
-com.myself.demo.app-pngs-66 D:\Users\pc\StudioProjects\myself\app\build\generated\res\pngs\debug
-com.myself.demo.app-resValues-67 D:\Users\pc\StudioProjects\myself\app\build\generated\res\resValues\debug
-com.myself.demo.app-packageDebugResources-68 D:\Users\pc\StudioProjects\myself\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.myself.demo.app-packageDebugResources-69 D:\Users\pc\StudioProjects\myself\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.myself.demo.app-merged_res-70 D:\Users\pc\StudioProjects\myself\app\build\intermediates\merged_res\debug
-com.myself.demo.app-debug-71 D:\Users\pc\StudioProjects\myself\app\src\debug\res
-com.myself.demo.app-main-72 D:\Users\pc\StudioProjects\myself\app\src\main\res
+com.myself.demo.app-pngs-0 C:\FEKHAR ZAKARIA\Dymanama\myself\app\build\generated\res\pngs\debug
+com.myself.demo.app-resValues-1 C:\FEKHAR ZAKARIA\Dymanama\myself\app\build\generated\res\resValues\debug
+com.myself.demo.app-packageDebugResources-2 C:\FEKHAR ZAKARIA\Dymanama\myself\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.myself.demo.app-packageDebugResources-3 C:\FEKHAR ZAKARIA\Dymanama\myself\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.myself.demo.app-merged_res-4 C:\FEKHAR ZAKARIA\Dymanama\myself\app\build\intermediates\merged_res\debug
+com.myself.demo.app-debug-5 C:\FEKHAR ZAKARIA\Dymanama\myself\app\src\debug\res
+com.myself.demo.app-main-6 C:\FEKHAR ZAKARIA\Dymanama\myself\app\src\main\res
+com.myself.demo.app-activity-1.6.0-7 C:\Users\Dell E5580\.gradle\caches\transforms-3\04c317cd856a97f11e1354ef0649e877\transformed\activity-1.6.0\res
+com.myself.demo.app-foundation-1.1.0-rc01-8 C:\Users\Dell E5580\.gradle\caches\transforms-3\0f3c62970fc35aafec7989793cceb10f\transformed\foundation-1.1.0-rc01\res
+com.myself.demo.app-emoji2-1.2.0-9 C:\Users\Dell E5580\.gradle\caches\transforms-3\0fe061f81d849408b151b407a92bb4c3\transformed\emoji2-1.2.0\res
+com.myself.demo.app-core-1.10.3-10 C:\Users\Dell E5580\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\res
+com.myself.demo.app-core-1.10.1-11 C:\Users\Dell E5580\.gradle\caches\transforms-3\18568efb7ae1ef1c2d49c8a110fefbb8\transformed\core-1.10.1\res
+com.myself.demo.app-constraintlayout-2.1.4-12 C:\Users\Dell E5580\.gradle\caches\transforms-3\1a0ad9a2d6a5daf669506071f02ee063\transformed\constraintlayout-2.1.4\res
+com.myself.demo.app-navigation-fragment-2.5.3-13 C:\Users\Dell E5580\.gradle\caches\transforms-3\1ce4d2507b786f8b18756fa4b4962db7\transformed\navigation-fragment-2.5.3\res
+com.myself.demo.app-ui-util-1.1.0-rc01-14 C:\Users\Dell E5580\.gradle\caches\transforms-3\1ec3889bfaf597a053880fa377704720\transformed\ui-util-1.1.0-rc01\res
+com.myself.demo.app-ui-1.1.0-rc01-15 C:\Users\Dell E5580\.gradle\caches\transforms-3\22981b89fa17cc8fb332b4379c7351bb\transformed\ui-1.1.0-rc01\res
+com.myself.demo.app-startup-runtime-1.1.1-16 C:\Users\Dell E5580\.gradle\caches\transforms-3\23beed4f175ee56176e165a251ae364e\transformed\startup-runtime-1.1.1\res
+com.myself.demo.app-lifecycle-livedata-core-ktx-2.5.1-17 C:\Users\Dell E5580\.gradle\caches\transforms-3\2b297eed2fff4bd47c0b6b159838c0de\transformed\lifecycle-livedata-core-ktx-2.5.1\res
+com.myself.demo.app-core-11.1.0-18 C:\Users\Dell E5580\.gradle\caches\transforms-3\2b56623c6e28aa26f7637af407b702c1\transformed\core-11.1.0\res
+com.myself.demo.app-lifecycle-viewmodel-2.5.1-19 C:\Users\Dell E5580\.gradle\caches\transforms-3\2e4005290ea5efa9e57960de0ec4b955\transformed\lifecycle-viewmodel-2.5.1\res
+com.myself.demo.app-lifecycle-livedata-2.5.1-20 C:\Users\Dell E5580\.gradle\caches\transforms-3\31b8cdfcc88e5202f059a9c61729903d\transformed\lifecycle-livedata-2.5.1\res
+com.myself.demo.app-runtime-saveable-1.1.0-rc01-21 C:\Users\Dell E5580\.gradle\caches\transforms-3\35e1f4f06d62ed61bc511a2a59663380\transformed\runtime-saveable-1.1.0-rc01\res
+com.myself.demo.app-williamchart-3.10.1-22 C:\Users\Dell E5580\.gradle\caches\transforms-3\3dcef936bcd0acbe4eb10dadfaf12e02\transformed\williamchart-3.10.1\res
+com.myself.demo.app-window-1.0.0-23 C:\Users\Dell E5580\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\res
+com.myself.demo.app-slidingpanelayout-1.2.0-24 C:\Users\Dell E5580\.gradle\caches\transforms-3\4196a4bdcc9f5ae95c8247ca5d280a3f\transformed\slidingpanelayout-1.2.0\res
+com.myself.demo.app-transition-1.4.1-25 C:\Users\Dell E5580\.gradle\caches\transforms-3\42f2c33beee96d00347d7019f6236aad\transformed\transition-1.4.1\res
+com.myself.demo.app-lifecycle-runtime-2.5.1-26 C:\Users\Dell E5580\.gradle\caches\transforms-3\495f051f83a736b2c43a45b77e3fee36\transformed\lifecycle-runtime-2.5.1\res
+com.myself.demo.app-lifecycle-viewmodel-savedstate-2.5.1-27 C:\Users\Dell E5580\.gradle\caches\transforms-3\53b858246fb2f8d63f3a03933b3edbcf\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.myself.demo.app-animation-1.1.0-rc01-28 C:\Users\Dell E5580\.gradle\caches\transforms-3\576eb303f56516f2e865cfee1d68e4e8\transformed\animation-1.1.0-rc01\res
+com.myself.demo.app-play-services-basement-18.0.0-29 C:\Users\Dell E5580\.gradle\caches\transforms-3\5bcf5e131d0ab850bceed8dbd923ed61\transformed\play-services-basement-18.0.0\res
+com.myself.demo.app-ui-text-1.1.0-rc01-30 C:\Users\Dell E5580\.gradle\caches\transforms-3\5bfe56882c1eed849e68f3f9d9c3f162\transformed\ui-text-1.1.0-rc01\res
+com.myself.demo.app-glide-4.14.2-31 C:\Users\Dell E5580\.gradle\caches\transforms-3\65a6b7f24bbbc291ec7eb239f82988f9\transformed\glide-4.14.2\res
+com.myself.demo.app-navigation-runtime-ktx-2.5.3-32 C:\Users\Dell E5580\.gradle\caches\transforms-3\6b7af760bad822681f72afd47d5fe338\transformed\navigation-runtime-ktx-2.5.3\res
+com.myself.demo.app-roundedimageview-2.3.0-33 C:\Users\Dell E5580\.gradle\caches\transforms-3\756ba76c32dda682f59086e34d163621\transformed\roundedimageview-2.3.0\res
+com.myself.demo.app-recyclerview-1.2.1-34 C:\Users\Dell E5580\.gradle\caches\transforms-3\7607b75443f1f9ea4e33f02c0b1f4af2\transformed\recyclerview-1.2.1\res
+com.myself.demo.app-navigation-ui-ktx-2.5.3-35 C:\Users\Dell E5580\.gradle\caches\transforms-3\78219941633dbebd6f91c1f97fdf531d\transformed\navigation-ui-ktx-2.5.3\res
+com.myself.demo.app-lifecycle-runtime-ktx-2.5.1-36 C:\Users\Dell E5580\.gradle\caches\transforms-3\7d23026e7a5991e03d1abb048af7f63c\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.myself.demo.app-navigation-common-ktx-2.5.3-37 C:\Users\Dell E5580\.gradle\caches\transforms-3\7e7aa320f16f419eb201be1313d57320\transformed\navigation-common-ktx-2.5.3\res
+com.myself.demo.app-material-1.9.0-38 C:\Users\Dell E5580\.gradle\caches\transforms-3\82f63db3c692749b47897530952d8595\transformed\material-1.9.0\res
+com.myself.demo.app-ui-unit-1.1.0-rc01-39 C:\Users\Dell E5580\.gradle\caches\transforms-3\86477cf47d3a8925d01ee3c6dc964f9b\transformed\ui-unit-1.1.0-rc01\res
+com.myself.demo.app-navigation-runtime-2.5.3-40 C:\Users\Dell E5580\.gradle\caches\transforms-3\8778437bed06506029595d15a05032ab\transformed\navigation-runtime-2.5.3\res
+com.myself.demo.app-emoji2-views-helper-1.2.0-41 C:\Users\Dell E5580\.gradle\caches\transforms-3\8792b76ca9ff53ffeb21bdf48f6bb00c\transformed\emoji2-views-helper-1.2.0\res
+com.myself.demo.app-viewpager2-1.0.0-42 C:\Users\Dell E5580\.gradle\caches\transforms-3\88eb856e960904d5f8b50f59a37af7d7\transformed\viewpager2-1.0.0\res
+com.myself.demo.app-lifecycle-livedata-core-2.5.1-43 C:\Users\Dell E5580\.gradle\caches\transforms-3\8e89b973ba352e4cc2613f0606f1b349\transformed\lifecycle-livedata-core-2.5.1\res
+com.myself.demo.app-circleimageview-3.1.0-44 C:\Users\Dell E5580\.gradle\caches\transforms-3\94266beeebb1e4dff7553bc983545f98\transformed\circleimageview-3.1.0\res
+com.myself.demo.app-lifecycle-process-2.4.1-45 C:\Users\Dell E5580\.gradle\caches\transforms-3\9613ff1c2744f7ec3526157eb9efe952\transformed\lifecycle-process-2.4.1\res
+com.myself.demo.app-core-ktx-1.10.1-46 C:\Users\Dell E5580\.gradle\caches\transforms-3\9c726104966dea6eef7b67474dd417ca\transformed\core-ktx-1.10.1\res
+com.myself.demo.app-cardview-1.0.0-47 C:\Users\Dell E5580\.gradle\caches\transforms-3\b26087510e15192491d30a2579d8f558\transformed\cardview-1.0.0\res
+com.myself.demo.app-annotation-experimental-1.3.0-48 C:\Users\Dell E5580\.gradle\caches\transforms-3\b6862f633c137cacd39d5b5a842bc69e\transformed\annotation-experimental-1.3.0\res
+com.myself.demo.app-drawerlayout-1.1.1-49 C:\Users\Dell E5580\.gradle\caches\transforms-3\b70a6b7a093bc1f88bc7bc2faa3270a8\transformed\drawerlayout-1.1.1\res
+com.myself.demo.app-activity-ktx-1.6.0-50 C:\Users\Dell E5580\.gradle\caches\transforms-3\b93a2734ede6fbde3488eaefde90bfef\transformed\activity-ktx-1.6.0\res
+com.myself.demo.app-appcompat-resources-1.6.1-51 C:\Users\Dell E5580\.gradle\caches\transforms-3\ba61f293b3253fff6bdbcd4bedd404c3\transformed\appcompat-resources-1.6.1\res
+com.myself.demo.app-savedstate-ktx-1.2.0-52 C:\Users\Dell E5580\.gradle\caches\transforms-3\bd70d9126e9c5d9fe0609dda64372f14\transformed\savedstate-ktx-1.2.0\res
+com.myself.demo.app-android-gif-drawable-1.2.25-53 C:\Users\Dell E5580\.gradle\caches\transforms-3\bf741020b3b9410da3641e2e9a12a803\transformed\android-gif-drawable-1.2.25\res
+com.myself.demo.app-profileinstaller-1.1.0-rc01-54 C:\Users\Dell E5580\.gradle\caches\transforms-3\c2ca4eb212143d8bd35bdc6fd54d4344\transformed\profileinstaller-1.1.0-rc01\res
+com.myself.demo.app-fragment-ktx-1.5.4-55 C:\Users\Dell E5580\.gradle\caches\transforms-3\c2da3b26c2aeb45a820bc9473067be6d\transformed\fragment-ktx-1.5.4\res
+com.myself.demo.app-navigation-ui-2.5.3-56 C:\Users\Dell E5580\.gradle\caches\transforms-3\c3924f2f509d01b31633ba3c9f59db5f\transformed\navigation-ui-2.5.3\res
+com.myself.demo.app-ui-geometry-1.1.0-rc01-57 C:\Users\Dell E5580\.gradle\caches\transforms-3\c3c0d4abc6ae5474207bc8e9a0d77a61\transformed\ui-geometry-1.1.0-rc01\res
+com.myself.demo.app-appcompat-1.6.1-58 C:\Users\Dell E5580\.gradle\caches\transforms-3\caa177275e0f7a1715f106eefde9c911\transformed\appcompat-1.6.1\res
+com.myself.demo.app-coordinatorlayout-1.1.0-59 C:\Users\Dell E5580\.gradle\caches\transforms-3\cacb5473d80a2fb81d83f6aab278283a\transformed\coordinatorlayout-1.1.0\res
+com.myself.demo.app-whynotimagecarousel-2.1.0-debug-60 C:\Users\Dell E5580\.gradle\caches\transforms-3\cd0e90c12dc1c2166a2378977e2c3b3c\transformed\whynotimagecarousel-2.1.0-debug\res
+com.myself.demo.app-fragment-1.5.4-61 C:\Users\Dell E5580\.gradle\caches\transforms-3\cd211a1006837de64524cf7682ebdb63\transformed\fragment-1.5.4\res
+com.myself.demo.app-lifecycle-viewmodel-ktx-2.5.1-62 C:\Users\Dell E5580\.gradle\caches\transforms-3\cf0fc4c1ab5edd3d7c29ea9729cd08ff\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.myself.demo.app-play-services-base-18.0.1-63 C:\Users\Dell E5580\.gradle\caches\transforms-3\d094ae819333c251be6446e2be5a2e13\transformed\play-services-base-18.0.1\res
+com.myself.demo.app-animation-core-1.1.0-rc01-64 C:\Users\Dell E5580\.gradle\caches\transforms-3\d376691829543dad19693e4576056054\transformed\animation-core-1.1.0-rc01\res
+com.myself.demo.app-savedstate-1.2.0-65 C:\Users\Dell E5580\.gradle\caches\transforms-3\d79e273b4e230832f37d1f2aea9b0d23\transformed\savedstate-1.2.0\res
+com.myself.demo.app-ui-graphics-1.1.0-rc01-66 C:\Users\Dell E5580\.gradle\caches\transforms-3\d90824cb315aa59c92da9a43b4802729\transformed\ui-graphics-1.1.0-rc01\res
+com.myself.demo.app-foundation-layout-1.1.0-rc01-67 C:\Users\Dell E5580\.gradle\caches\transforms-3\dc8375b3ee2070db83677f3b0a0396bc\transformed\foundation-layout-1.1.0-rc01\res
+com.myself.demo.app-circleindicator-2.1.6-68 C:\Users\Dell E5580\.gradle\caches\transforms-3\dd37abe56dc9a97ce5893ca47a726630\transformed\circleindicator-2.1.6\res
+com.myself.demo.app-navigation-common-2.5.3-69 C:\Users\Dell E5580\.gradle\caches\transforms-3\e6b0d012d3ad8e6dd61fa8b6ba088692\transformed\navigation-common-2.5.3\res
+com.myself.demo.app-shimmer-0.5.0-70 C:\Users\Dell E5580\.gradle\caches\transforms-3\f3526e0b58788a9cf0c3a1d929a0d7bf\transformed\shimmer-0.5.0\res
+com.myself.demo.app-navigation-fragment-ktx-2.5.3-71 C:\Users\Dell E5580\.gradle\caches\transforms-3\f8a232b493fcb78848d59b1441a31753\transformed\navigation-fragment-ktx-2.5.3\res
+com.myself.demo.app-runtime-1.1.0-rc01-72 C:\Users\Dell E5580\.gradle\caches\transforms-3\faaa424316f6b7bec59140c9e3c0a487\transformed\runtime-1.1.0-rc01\res

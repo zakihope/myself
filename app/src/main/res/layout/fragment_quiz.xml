@@ -13,7 +13,7 @@
 
 
         <ImageView
-            android:id="@+id/image7"
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
@@ -37,7 +37,7 @@
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/image7" />
+            app:layout_constraintTop_toBottomOf="@+id/back" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card1"
@@ -71,7 +71,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:id="@+id/text2"
+                        android:id="@+id/titelquiz"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="32dp"
@@ -85,9 +85,11 @@
                         android:textSize="18sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
+
                 </androidx.cardview.widget.CardView>
 
                 <ImageView
+                    android:id="@+id/backQuiz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="24dp"
@@ -97,7 +99,7 @@
                     app:layout_constraintTop_toTopOf="@+id/card2" />
 
                 <TextView
-                    android:id="@+id/text3"
+                    android:id="@+id/quizBody"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
@@ -132,7 +134,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text4"
+                android:id="@+id/anser1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -159,7 +161,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text5"
+                android:id="@+id/anser2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -186,7 +188,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text6"
+                android:id="@+id/anser3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -213,7 +215,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text7"
+                android:id="@+id/anser4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -240,7 +242,7 @@
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
-                android:id="@+id/text8"
+                android:id="@+id/anser5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

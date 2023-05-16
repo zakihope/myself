@@ -3484,6 +3484,11 @@ id androidx_compose_ui_view_composition_context
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
+id anser1
+id anser2
+id anser3
+id anser4
+id anser5
 id antiClockwise
 id anticipate
 id arc
@@ -3494,6 +3499,8 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id auto_complete_txt
+id back
+id backQuiz
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3675,7 +3682,6 @@ id image3
 id image4
 id image5
 id image6
-id image7
 id imageView
 id img
 id immediateStop
@@ -3832,6 +3838,7 @@ id profileFragment
 id progress
 id progress_circular
 id progress_horizontal
+id quizBody
 id quizFragment
 id radial
 id radio
@@ -3955,12 +3962,6 @@ id text10
 id text11
 id text12
 id text2
-id text3
-id text4
-id text5
-id text6
-id text7
-id text8
 id text9
 id textEnd
 id textSpacerNoButtons
@@ -3978,6 +3979,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id titelquiz
 id title
 id titleDividerNoCustom
 id title_template
