@@ -1,17 +1,22 @@
 package com.myself.demo.ui
 
 import android.animation.ObjectAnimator
+import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.google.gson.Gson
+import com.myself.demo.MainActivity
 import com.myself.demo.utlis.Constants
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentQuizBinding
 import com.myself.demo.model.Test
+import com.myself.demo.model.User
 
 class QuizFragment : Fragment() {
     private lateinit var animator: ObjectAnimator
@@ -33,7 +38,11 @@ class QuizFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        QuizNumbe = (activity as MainActivity).loadTestData()!! + 1
+        if (QuizNumbe > 38) {
+            binding.numberQuiz.text = "38"
+            binding.quizBody.text = arrQuiz.get(QuizNumbe - 2).question
+        }
         binding.loading.max = 38
         pushQuiz()
 
@@ -171,7 +180,7 @@ class QuizFragment : Fragment() {
     }
 
     fun pushQuiz() {
-       animator =  ObjectAnimator.ofInt(binding.loading, "progress", QuizNumbe - 1)
+        animator = ObjectAnimator.ofInt(binding.loading, "progress", QuizNumbe - 1)
         animator.start()
         if (QuizNumbe < 39) {
             var n = QuizNumbe - 1
@@ -183,10 +192,21 @@ class QuizFragment : Fragment() {
             binding.percentag.text = "النتيجة"
             bundle.putInt("result", test.result)
         }
+        saveTestStatusData()
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         animator.cancel()
         binding.loading.progress = 0
+    }
+
+    fun saveTestStatusData() {
+        val sharedPreferences = context?.getSharedPreferences("cach", Context.MODE_PRIVATE)
+        val editor = sharedPreferences?.edit()
+        val QuizDone = QuizNumbe - 1
+        Log.d("TAG", "saveTestStatusData: 999999999999999999999" + QuizDone)
+        editor?.putInt("QuizDone", QuizDone)
+        editor?.apply()
     }
 }

@@ -9,7 +9,7 @@
         android:id="@+id/profil_lin_la"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="104dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
         app:layout_constraintStart_toStartOf="@+id/constraintLayout"
@@ -100,12 +100,12 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/support"
             android:drawablePadding="16dp"
             android:fontFamily="@font/noorregular"
             android:gravity="start|center"
             android:paddingStart="8sp"
             android:paddingEnd="8sp"
-            android:drawableEnd="@drawable/support"
             android:text="المساعدة والدعم"
             android:textColor="@color/black"
             android:textSize="16sp"
@@ -119,10 +119,10 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/rectangle_232"
+            android:drawableEnd="@drawable/about"
             android:drawablePadding="16dp"
             android:fontFamily="@font/noorregular"
             android:gravity="start|center"
-            android:drawableEnd="@drawable/about"
             android:paddingStart="8sp"
             android:paddingEnd="8sp"
             android:text="حول التطبيق"
@@ -136,6 +136,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/rectangle_232"
             android:drawableEnd="@drawable/send"
             android:drawablePadding="16dp"
@@ -147,6 +148,26 @@
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
+            app:drawableStartCompat="@drawable/arow" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rectangle_232"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/noorregular"
+            android:gravity="start|center"
+            android:paddingStart="8sp"
+            android:paddingEnd="8sp"
+            android:text="تسجيل الخروج"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableEnd="@drawable/power"
             app:drawableStartCompat="@drawable/arow" />
 
     </LinearLayout>
@@ -223,5 +244,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_end="391dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

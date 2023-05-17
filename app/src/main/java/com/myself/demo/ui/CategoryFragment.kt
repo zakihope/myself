@@ -27,10 +27,11 @@ class CategoryFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        //back
         val callback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                val navController = findNavController(requireActivity(), R.id.fragment)
-                navController.navigate(R.id.action_categourieFragment_to_homeFragment)
+                findNavController().navigate(R.id.action_categourieFragment_to_homeFragment)
                 }
             }
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)

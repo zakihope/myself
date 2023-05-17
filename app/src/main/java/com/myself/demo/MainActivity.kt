@@ -1,9 +1,11 @@
 package com.myself.demo
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
@@ -11,7 +13,6 @@ import androidx.navigation.NavOptions
 import androidx.navigation.NavOptions.Builder
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.play.core.appupdate.AppUpdateInfo
 import com.google.android.play.core.appupdate.AppUpdateManager
 import com.google.android.play.core.appupdate.AppUpdateManagerFactory
@@ -19,7 +20,9 @@ import com.google.android.play.core.install.InstallStateUpdatedListener
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.InstallStatus
 import com.google.android.play.core.install.model.UpdateAvailability
+import com.google.gson.Gson
 import com.myself.demo.databinding.ActivityMainBinding
+import com.myself.demo.model.User
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,9 +43,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val navBar = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-        navBar?.setVisibility(View.GONE)
-
 
         // Full Screen Layout, StatusBar Dark Text, NavigationBar Dark Icon
         val decorView = window.decorView
@@ -52,13 +52,26 @@ class MainActivity : AppCompatActivity() {
                     or View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)
         }
 
+        //update google play
         appUpdateManager = AppUpdateManagerFactory.create(this)
         appUpdateManager.registerListener(installStateUpdatedListener)
 
+        //navigatio view
         navController = findNavController(R.id.fragment)
-
         binding.bottomNavigationView.setupWithNavController(navController)
 
+        // Set the initial destination using NavOptions
+        val initialDestination = if (loadSessionData() == false) {
+            R.id.helloFragment
+        } else {
+            R.id.homeFragment
+        }
+        val navOptions = Builder()
+            .setPopUpTo(initialDestination, true)
+            .build()
+        navController.navigate(initialDestination, null, navOptions)
+
+        //navigation bar item
         binding.bottomNavigationView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.homeFragment -> {
@@ -81,9 +94,11 @@ class MainActivity : AppCompatActivity() {
                     navController.navigate(R.id.profileFragment)
                     true
                 }
+
                 else -> false
             }
         }
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -121,4 +136,28 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun loadSessionData(): Boolean? {
+        val sharedPreferences = getSharedPreferences("cach", Context.MODE_PRIVATE)
+        val session = sharedPreferences?.getBoolean("session", false)
+        return session
+    }
+    fun loadUserData(): User? {
+        val sharedPreferences = getSharedPreferences("cach", Context.MODE_PRIVATE)
+        val json = sharedPreferences?.getString("user", null)
+        val gson = Gson()
+        return gson.fromJson(json, User::class.java)
+    }
+    fun loadTestData(): Int? {
+        val sharedPreferences = getSharedPreferences("cach", Context.MODE_PRIVATE)
+        val QuizDone = sharedPreferences?.getInt("QuizDone", 0)
+        return QuizDone
+    }
+
+    fun clearUserData() {
+        val user = getSharedPreferences("cach", MODE_PRIVATE)
+        val editor = user.edit()
+        editor.remove("user")
+        editor.clear()
+        editor.apply()
+    }
 }

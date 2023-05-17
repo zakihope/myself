@@ -10,6 +10,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FE0000</color>
     <!-- APPLE   GREY      #F5F5F7
          SAMSUNG GREY      #F5F6F8
          TARGET  GREY      #F7F7F7
@@ -17,5 +18,4 @@
          MOHAMMED FIGMA GREY #F0F2F5
     -->
     <color name="green2">#00BB00</color>
-
 </resources>

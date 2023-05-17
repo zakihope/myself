@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/helloFragment">
+    app:startDestination="@id/homeFragment">
 
 
     <fragment
@@ -32,7 +33,7 @@
         <action
             android:id="@+id/action_categourieFragment_to_homeFragment"
             app:destination="@id/homeFragment"
-            app:popUpTo="@id/categourieFragment"
+            app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
@@ -45,6 +46,11 @@
             app:destination="@id/homeFragment"
             app:popUpTo="@id/homeFragment"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_helloFragment"
+            app:destination="@id/helloFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/forumFragment"
@@ -54,7 +60,9 @@
 
         <action
             android:id="@+id/action_forumFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_forumFragment_to_helloFragment"
             app:destination="@id/helloFragment"
@@ -114,6 +122,4 @@
             android:id="@+id/action_resultFragment_to_quizFragment"
             app:destination="@id/quizFragment" />
     </fragment>
-
-
 </navigation>
