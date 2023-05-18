@@ -85,7 +85,7 @@ class ResultFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card2.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     val dialIntent = Intent(Intent.ACTION_DIAL)
-                    dialIntent.data = Uri.parse("tel:0674839640")
+                    dialIntent.data = Uri.parse("tel:0657577574")
                     startActivity(dialIntent)
                     if (result != null)
                         bundle.putInt("numberQuiz", 38)
@@ -145,8 +145,6 @@ class ResultFragment : Fragment() {
         imageList.add(R.drawable.l)
         imageList.add(R.drawable.m)
         imageList.add(R.drawable.n)
-        imageList.add(R.drawable.j)
-
 
         adapter = ImageAdapter(imageList, viewPager2)
 
