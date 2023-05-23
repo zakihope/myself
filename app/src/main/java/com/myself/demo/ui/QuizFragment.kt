@@ -11,12 +11,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.myself.demo.MainActivity
 import com.myself.demo.utlis.Constants
 import com.myself.demo.R
 import com.myself.demo.databinding.FragmentQuizBinding
 import com.myself.demo.model.Test
-import com.myself.demo.model.User
 
 class QuizFragment : Fragment() {
     private lateinit var animator: ObjectAnimator
@@ -24,6 +24,7 @@ class QuizFragment : Fragment() {
     private var _binding: FragmentQuizBinding? = null
     private val binding get() = _binding!!
     val arrQuiz = Constants().getQuestion()
+    var ansersList = ArrayList<Int>()
     var QuizNumbe = 1
     val test = Test(0, 0, 0)
 
@@ -44,6 +45,8 @@ class QuizFragment : Fragment() {
             binding.quizBody.text = arrQuiz.get(QuizNumbe - 2).question
         }
         binding.loading.max = 38
+        test.result = (activity as MainActivity).loadTestResult()!!
+        ansersList = loadansersList()
         pushQuiz()
 
         binding.anser1.setOnTouchListener { _, event ->
@@ -56,6 +59,7 @@ class QuizFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card3.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe < 39) {
+                        ansersList.add(4)
                         test.result = test.result + arrQuiz.get(QuizNumbe - 1).anser.get(4).value
                         QuizNumbe++
                         pushQuiz()
@@ -76,6 +80,7 @@ class QuizFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card4.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe < 39) {
+                        ansersList.add(3)
                         test.result = test.result + arrQuiz.get(QuizNumbe - 1).anser.get(3).value
                         QuizNumbe++
                         pushQuiz()
@@ -96,6 +101,7 @@ class QuizFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card5.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe < 39) {
+                        ansersList.add(2)
                         test.result = test.result + arrQuiz.get(QuizNumbe - 1).anser.get(2).value
                         QuizNumbe++
                         pushQuiz()
@@ -116,6 +122,7 @@ class QuizFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card6.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe < 39) {
+                        ansersList.add(1)
                         test.result = test.result + arrQuiz.get(QuizNumbe - 1).anser.get(1).value
                         QuizNumbe++
                         pushQuiz()
@@ -136,6 +143,7 @@ class QuizFragment : Fragment() {
                 MotionEvent.ACTION_UP -> {
                     binding.card7.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe < 39) {
+                        ansersList.add(0)
                         test.result = test.result + arrQuiz.get(QuizNumbe - 1).anser.get(0).value
                         QuizNumbe++
                         pushQuiz()
@@ -146,6 +154,9 @@ class QuizFragment : Fragment() {
                 else -> false
             }
         }
+
+
+
         binding.backQuiz.setOnTouchListener { _, event ->
             when (event.action) {
                 MotionEvent.ACTION_DOWN -> {
@@ -157,6 +168,13 @@ class QuizFragment : Fragment() {
                     binding.backQuiz.setCardBackgroundColor(resources.getColor(R.color.ms_grey))
                     if (QuizNumbe > 1) {
                         QuizNumbe--
+                        Log.d("TAG", "onViewCreated: test.result "+test.result)
+                        Log.d("TAG", "onViewCreated: QuizNumbe "+QuizNumbe)
+                        Log.d("TAG", "onViewCreated: arrQuiz.get(QuizNumbe - 1) "+arrQuiz.get(QuizNumbe - 1))
+                        Log.d("TAG", "onViewCreated: test.result - arrQuiz.get(QuizNumbe - 1).anser.get(0).value "+(test.result - arrQuiz.get(QuizNumbe - 1).anser.get(0).value))
+
+                        test.result = test.result - arrQuiz.get(QuizNumbe - 1).anser.get(ansersList.get(QuizNumbe-1)).value
+                        ansersList.removeAt(QuizNumbe-1)
                         pushQuiz()
                     }
                     if (QuizNumbe == 38)
@@ -205,8 +223,23 @@ class QuizFragment : Fragment() {
         val sharedPreferences = context?.getSharedPreferences("cach", Context.MODE_PRIVATE)
         val editor = sharedPreferences?.edit()
         val QuizDone = QuizNumbe - 1
-        Log.d("TAG", "saveTestStatusData: 999999999999999999999" + QuizDone)
+       // Log.d("TAG", "saveTestStatusData: QuizDone " + QuizDone)
         editor?.putInt("QuizDone", QuizDone)
+        Log.d("TAG", "onViewCreated: test.result "+test.result)
+        editor?.putInt("testResult", test.result)
+        val gson = Gson()
+        val json = gson.toJson(ansersList)
+        editor?.putString("ansersList", json)
         editor?.apply()
+    }
+    fun loadansersList(): ArrayList<Int> {
+        val sharedPreferences = activity?.getSharedPreferences("cach", Context.MODE_PRIVATE)
+        val json = sharedPreferences?.getString("ansersList", null)
+        val gson = Gson()
+        if (!json.isNullOrEmpty()) {
+            return gson.fromJson(json, object : TypeToken<ArrayList<Int>>() {}.type)
+        } else {
+            return  ArrayList()
+        }
     }
 }

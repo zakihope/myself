@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
@@ -149,8 +148,11 @@ class MainActivity : AppCompatActivity() {
     }
     fun loadTestData(): Int? {
         val sharedPreferences = getSharedPreferences("cach", Context.MODE_PRIVATE)
-        val QuizDone = sharedPreferences?.getInt("QuizDone", 0)
-        return QuizDone
+        return sharedPreferences?.getInt("QuizDone", 0)
+    }
+    fun loadTestResult(): Int? {
+        val sharedPreferences = getSharedPreferences("cach", Context.MODE_PRIVATE)
+        return sharedPreferences?.getInt("testResult", 0)
     }
 
     fun clearUserData() {

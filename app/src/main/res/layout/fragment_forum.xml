@@ -73,9 +73,12 @@
             android:id="@+id/constraint1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/card1">
 
             <TextView
@@ -87,7 +90,6 @@
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,6 +178,8 @@
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/card5"
             app:layout_constraintTop_toBottomOf="@+id/text7">
 
             <LinearLayout
@@ -219,6 +223,8 @@
             android:outlineSpotShadowColor="@color/my_self"
             app:cardBackgroundColor="@color/ms_grey"
             app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/card4"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text7">
 
@@ -261,10 +267,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
-            android:visibility="gone"
             android:layout_marginEnd="32dp"
             android:background="@color/ms_grey"
             android:hint="تعيش مع"
+            android:visibility="gone"
             app:boxCornerRadiusBottomEnd="@dimen/dimen10dp"
             app:boxCornerRadiusBottomStart="@dimen/dimen10dp"
             app:boxCornerRadiusTopEnd="@dimen/dimen10dp"

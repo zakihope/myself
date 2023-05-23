@@ -53,147 +53,146 @@
 31-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:13:9-41
 32        android:supportsRtl="true"
 32-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:14:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.Myself" >
-34-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:15:9-44
-35        <activity
-35-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:17:9-24:20
-36            android:name="com.myself.demo.SplachActivity"
-36-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:18:13-43
-37            android:exported="true" >
-37-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:19:13-36
-38            <intent-filter>
-38-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:20:13-23:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:21:17-69
-39-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:21:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:22:17-77
-41-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:22:27-74
-42            </intent-filter>
-43        </activity>
-44        <activity
-44-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:25:9-28:20
-45            android:name="com.myself.demo.MainActivity"
-45-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:26:13-41
-46            android:exported="true" >
-46-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:27:13-36
-47        </activity>
-48
-49        <uses-library
-49-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-50            android:name="androidx.window.extensions"
-50-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-51            android:required="false" />
-51-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-52        <uses-library
-52-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-53            android:name="androidx.window.sidecar"
-53-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-54            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-54-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-55        <activity
-55-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
-56            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-56-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
-57            android:enabled="false"
-57-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
-58            android:exported="false"
-58-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
-59            android:launchMode="singleInstance"
-59-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
-60            android:process=":playcore_missing_splits_activity"
-60-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
-61            android:stateNotNeeded="true" />
-61-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
-62        <activity
-62-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
-63            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-63-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
-64            android:exported="false"
-64-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
-65            android:stateNotNeeded="true"
-65-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
-66            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-66-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
-67        <service
-67-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
-68            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-68-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
-69            android:enabled="false"
-69-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
-70            android:exported="true" >
-70-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
-71            <meta-data
-71-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
-72                android:name="com.google.android.play.core.assetpacks.versionCode"
-72-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
-73                android:value="11003" />
-73-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
-74        </service>
-75        <service
-75-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
-76            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-76-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
-77            android:enabled="false"
-77-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
-78            android:exported="false" />
-78-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
-79
-80        <provider
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-81            android:name="androidx.startup.InitializationProvider"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
-82            android:authorities="com.myself.demo.androidx-startup"
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
-83            android:exported="false" >
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
-84            <meta-data
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-85                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-86                android:value="androidx.startup" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-87        </provider>
-88
-89        <receiver
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-91            android:directBootAware="false"
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-92            android:enabled="true"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-93            android:exported="true"
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-94            android:permission="android.permission.DUMP" >
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-95            <intent-filter>
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-97            </intent-filter>
-98            <intent-filter>
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-100            </intent-filter>
-101            <intent-filter>
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-103            </intent-filter>
-104            <intent-filter>
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-106            </intent-filter>
-107        </receiver>
-108    </application>
-109
-110</manifest>
+33        android:theme="@style/Theme.Myself" >
+33-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:15:9-44
+34        <activity
+34-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:17:9-24:20
+35            android:name="com.myself.demo.SplachActivity"
+35-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:18:13-43
+36            android:exported="true" >
+36-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:19:13-36
+37            <intent-filter>
+37-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:21:17-69
+38-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:22:17-77
+40-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:25:9-28:20
+44            android:name="com.myself.demo.MainActivity"
+44-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:26:13-41
+45            android:exported="true" >
+45-->D:\Users\pc\StudioProjects\myself\app\src\main\AndroidManifest.xml:27:13-36
+46        </activity>
+47
+48        <uses-library
+48-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.window.extensions"
+49-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+50            android:required="false" />
+50-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+52            android:name="androidx.window.sidecar"
+52-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+53            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+53-->[androidx.window:window:1.0.0] C:\Users\pc\.gradle\caches\transforms-3\3f4800690db091d51d09d9aee35ed166\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+54        <activity
+54-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
+55            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+55-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
+56            android:enabled="false"
+56-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
+57            android:exported="false"
+57-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
+58            android:launchMode="singleInstance"
+58-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
+59            android:process=":playcore_missing_splits_activity"
+59-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
+60            android:stateNotNeeded="true" />
+60-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
+61        <activity
+61-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
+62            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+62-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
+63            android:exported="false"
+63-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
+64            android:stateNotNeeded="true"
+64-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
+65            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+65-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
+66        <service
+66-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
+67            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+67-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
+68            android:enabled="false"
+68-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
+69            android:exported="true" >
+69-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
+70            <meta-data
+70-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
+71                android:name="com.google.android.play.core.assetpacks.versionCode"
+71-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
+72                android:value="11003" />
+72-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
+73        </service>
+74        <service
+74-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
+75            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+75-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
+76            android:enabled="false"
+76-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
+77            android:exported="false" />
+77-->[com.google.android.play:core:1.10.3] C:\Users\pc\.gradle\caches\transforms-3\1663c8fceb3bc634266490139509b29c\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
+78
+79        <provider
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.myself.demo.androidx-startup"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+85                android:value="androidx.startup" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+86        </provider>
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\pc\.gradle\caches\transforms-3\02e74726da3ae349757b5ff9780b640b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

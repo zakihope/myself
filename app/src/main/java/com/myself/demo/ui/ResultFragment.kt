@@ -17,9 +17,11 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
+import com.myself.demo.MainActivity
 import com.myself.demo.R
 import com.myself.demo.adapter.ImageAdapter
 import com.myself.demo.databinding.FragmentResultBinding
+import com.myself.demo.model.Test
 import java.lang.Math.abs
 
 class ResultFragment : Fragment() {
@@ -43,9 +45,8 @@ class ResultFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         // binding.card2.setOnClickListener({ v->findNavController().navigate(R.id.action_quizFragment_self) })
-        val args = this.arguments
-        val result = args?.getInt("result")
-        if (result != null) {
+
+        val result = (activity as MainActivity).loadTestResult()!!
             if (result < 115) {
                 binding.text2.text = "منخفض"
                 binding.text3.text = "لابد من برنامج تدريبي في أقرب وقت"
@@ -56,7 +57,7 @@ class ResultFragment : Fragment() {
                 binding.text2.text = "مرتفع"
                 binding.text3.text = "تقدير الذات مرتفع حافظ عليه و نميه أكثر"
             }
-        }
+
 
         init()
         setUpTransformer()
@@ -133,18 +134,14 @@ class ResultFragment : Fragment() {
         handler = Handler(Looper.myLooper()!!)
         imageList = ArrayList()
 
-        imageList.add(R.drawable.a)
-        imageList.add(R.drawable.b)
-        imageList.add(R.drawable.c)
-        imageList.add(R.drawable.d)
-        imageList.add(R.drawable.e)
-        imageList.add(R.drawable.f)
-        imageList.add(R.drawable.g)
-        imageList.add(R.drawable.k)
-        imageList.add(R.drawable.i)
-        imageList.add(R.drawable.l)
-        imageList.add(R.drawable.m)
-        imageList.add(R.drawable.n)
+        imageList.add(R.drawable.a1)
+        imageList.add(R.drawable.b1)
+        imageList.add(R.drawable.c1)
+        imageList.add(R.drawable.d1)
+        imageList.add(R.drawable.e1)
+        imageList.add(R.drawable.f1)
+        imageList.add(R.drawable.g1)
+
 
         adapter = ImageAdapter(imageList, viewPager2)
 
